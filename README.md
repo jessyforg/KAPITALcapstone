@@ -22,13 +22,11 @@ Developed in partnership with **TARAKI-CAR** (Technological Consortium for Aware
 
 ### 💰 For Investors
 - **Startup Discovery**: Browse and filter promising startups by industry, stage, and location
-- **Investment Portfolio Management**: Track your investment interests and opportunities
-- **Due Diligence Tools**: Access detailed startup information and business plans
+- **Due Diligence Tools**: Access detailed startup information and business plans (Available depends on the uploaded startup information)
 - **Direct Communication**: Connect directly with entrepreneurs
 
 ### 💼 For Job Seekers
 - **Professional Profiles**: Create comprehensive profiles showcasing skills and experience
-- **AI Resume Enhancement**: Improve your resume with AI-powered suggestions
 - **Startup Job Opportunities**: Discover exciting career opportunities in the startup ecosystem
 - **Skill Matching**: Get matched with startups based on your expertise
 
