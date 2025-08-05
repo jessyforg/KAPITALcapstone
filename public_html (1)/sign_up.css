@@ -1,0 +1,299 @@
+/* Import Poppins font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* Import Typographica font */
+@font-face {
+	font-family: 'Typographica';
+	src: url('fonts/Typographica.ttf') format('truetype');
+}
+
+/* General Reset and Box Model */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: linear-gradient(45deg, #ea580c, #000000);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+/* Container for centering the form */
+.container {
+	background-color: rgba(255, 255, 255, 0.95);
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	align-items: flex-start;
+}
+
+/* Logo Section */
+.logo-section {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.logos-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.kapital-logo {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.kapital-logo-img {
+	width: 180px;
+	height: auto;
+	transition: all 0.3s ease;
+}
+
+.partnership {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.partnership span {
+	font-size: 0.8rem;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.taraki-logo {
+	width: 80px;
+	height: auto;
+}
+
+/* Form Container */
+.form-container {
+	width: 70%;
+	background: white;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	color: #000000;
+	font-weight: 600;
+	text-align: center;
+}
+
+/* Form Elements */
+form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 12px;
+}
+
+/* Full width elements */
+form label[for="name"],
+form label[for="email"],
+form label[for="password"],
+form label[for="retype_password"],
+form label[for="role"],
+form input#name,
+form input#email,
+form input#password,
+form input#retype_password,
+form select#role,
+form .terms-container,
+form button[type="submit"] {
+	grid-column: 1 / -1;
+}
+
+/* Input fields */
+input,
+select,
+button {
+	padding: 10px;
+	border: 1px solid #ea580c;
+	border-radius: 5px;
+	font-size: 0.95rem;
+	font-family: "Poppins", sans-serif;
+	width: 100%;
+}
+
+input:focus,
+select:focus {
+	border-color: #ea580c;
+	outline: none;
+}
+
+/* Button styling */
+button {
+	background-color: #ea580c;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border: none;
+	font-size: 1rem;
+	padding: 12px 0;
+	margin-top: 10px;
+}
+
+button:hover {
+	background-color: #c44a0a;
+}
+
+/* Job Seeker Fields */
+#jobSeekerFields {
+	grid-column: 1 / -1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 12px;
+	margin-top: 10px;
+}
+
+#jobSeekerFields label[for="resume"],
+#jobSeekerFields input#resume,
+#jobSeekerFields small {
+	grid-column: 1 / -1;
+}
+
+#jobSeekerFields small {
+	font-size: 0.8rem;
+	color: #666;
+	margin-top: -5px;
+}
+
+/* Terms Container */
+.terms-container {
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.terms-container input[type="checkbox"] {
+	width: auto;
+	margin: 0;
+}
+
+.terms-container label {
+	font-size: 0.85rem;
+	margin: 0;
+}
+
+/* Links */
+a {
+	color: #ea580c;
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Modal Styles */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 10% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	max-width: 500px;
+	border-radius: 5px;
+	position: relative;
+	max-height: 80vh;
+	overflow-y: auto;
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+
+.close:hover {
+	color: #000;
+}
+
+/* Terms Content */
+.terms-content {
+	margin-top: 15px;
+	text-align: left;
+}
+
+.terms-content h4 {
+	color: #000;
+	margin: 12px 0 5px 0;
+	font-size: 1rem;
+}
+
+.terms-content p {
+	color: #666;
+	line-height: 1.4;
+	margin-bottom: 12px;
+	font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+	.container {
+		max-width: 900px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		max-width: 500px;
+		padding: 20px;
+	}
+
+	.logo-section,
+	.form-container {
+		width: 100%;
+	}
+
+	.logo-section {
+		padding: 10px;
+	}
+
+	form {
+		grid-template-columns: 1fr;
+	}
+
+	#jobSeekerFields {
+		grid-template-columns: 1fr;
+	}
+}

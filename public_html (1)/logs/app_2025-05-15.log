@@ -1,0 +1,170 @@
+[2025-05-15 23:44:49][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-15 23:44:49][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-05-15 23:44:49][INFO] API Key length: 164
+[2025-05-15 23:44:49][INFO] Starting getAIResponse for user_id: 18
+[2025-05-15 23:44:49][INFO] Question: How can I attract potential investors?...
+[2025-05-15 23:44:49][INFO] Checking token limit for user_id: 18
+[2025-05-15 23:44:49][INFO] Checking token limit for user_id: 18 on date: 2025-05-15
+[2025-05-15 23:44:49][INFO] Reconnecting to database
+[2025-05-15 23:44:49][INFO] Current token usage: 4124 / 1000
+[2025-05-15 23:44:49][WARNING] Token limit reached for user_id: 18
+[2025-05-15 23:46:00][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-15 23:46:00][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-05-15 23:46:00][INFO] API Key length: 164
+[2025-05-15 23:46:00][INFO] Starting getAIResponse for user_id: 18
+[2025-05-15 23:46:00][INFO] Question: How do I create a compelling business plan?...
+[2025-05-15 23:46:00][INFO] Checking token limit for user_id: 18
+[2025-05-15 23:46:00][INFO] Checking token limit for user_id: 18 on date: 2025-05-15
+[2025-05-15 23:46:00][INFO] Reconnecting to database
+[2025-05-15 23:46:00][INFO] Current token usage: 4124 / 1000
+[2025-05-15 23:46:00][WARNING] Token limit reached for user_id: 18
+[2025-05-15 23:46:00][INFO] Getting remaining tokens for user_id: 18 on date: 2025-05-15
+[2025-05-15 23:46:00][INFO] Reconnecting to database
+[2025-05-15 23:46:00][INFO] Remaining tokens: -3124
+[2025-05-15 23:47:53][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-15 23:47:53][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-05-15 23:47:53][INFO] API Key length: 164
+[2025-05-15 23:47:53][INFO] Starting getAIResponse for user_id: 18
+[2025-05-15 23:47:53][INFO] Question: What are effective strategies for market research?...
+[2025-05-15 23:47:53][INFO] Reconnecting to database
+[2025-05-15 23:47:53][INFO] Storing question in database
+[2025-05-15 23:47:53][INFO] Stored question with conversation_id: 142
+[2025-05-15 23:47:53][INFO] Calling OpenAI API
+[2025-05-15 23:47:53][INFO] Starting callOpenAI
+[2025-05-15 23:47:53][INFO] Preparing OpenAI API request with model: gpt-4-turbo-preview
+[2025-05-15 23:47:53][INFO] Sending request to OpenAI API
+[2025-05-15 23:48:11][INFO] Received response from OpenAI API with HTTP code: 200
+[2025-05-15 23:48:11][INFO] Response: {
+  "id": "chatcmpl-BXcav6cyC569MiXhX0Iq37gGDOGQg",
+  "object": "chat.completion",
+  "created": 1747352881,
+  "model": "gpt-4-0125-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+ ...
+[2025-05-15 23:48:11][INFO] Successfully extracted content from response
+[2025-05-15 23:48:11][INFO] Received response from OpenAI
+[2025-05-15 23:48:11][INFO] Estimated token count: 851.75
+[2025-05-15 23:48:11][INFO] Recording token usage
+[2025-05-15 23:48:11][INFO] Recording token usage for user_id: 18, count: 851.75 on date: 2025-05-15
+[2025-05-15 23:48:11][INFO] Reconnecting to database (attempt 1)
+[2025-05-15 23:48:11][INFO] Successfully recorded token usage
+[2025-05-15 23:48:11][INFO] Successfully recorded token usage
+[2025-05-15 23:48:11][INFO] Reconnecting to database for response update
+[2025-05-15 23:48:11][INFO] Updating response in database
+[2025-05-15 23:48:11][INFO] Successfully updated response in database
+[2025-05-15 23:48:11][INFO] Returning response to user
+[2025-05-15 23:49:07][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-15 23:49:07][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-05-15 23:49:07][INFO] API Key length: 164
+[2025-05-15 23:49:07][INFO] Starting getAIResponse for user_id: 18
+[2025-05-15 23:49:07][INFO] Question: If I were to start a business and I don't know where to start, can you guide me and provide me a roa...
+[2025-05-15 23:49:07][INFO] Reconnecting to database
+[2025-05-15 23:49:07][INFO] Storing question in database
+[2025-05-15 23:49:07][INFO] Stored question with conversation_id: 143
+[2025-05-15 23:49:07][INFO] Calling OpenAI API
+[2025-05-15 23:49:07][INFO] Starting callOpenAI
+[2025-05-15 23:49:07][INFO] Preparing OpenAI API request with model: gpt-4-turbo-preview
+[2025-05-15 23:49:07][INFO] Sending request to OpenAI API
+[2025-05-15 23:49:30][INFO] Received response from OpenAI API with HTTP code: 200
+[2025-05-15 23:49:30][INFO] Response: {
+  "id": "chatcmpl-BXcc7zzWKK0hfV7gfgPJ9OcSllHb0",
+  "object": "chat.completion",
+  "created": 1747352955,
+  "model": "gpt-4-0125-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+ ...
+[2025-05-15 23:49:30][INFO] Successfully extracted content from response
+[2025-05-15 23:49:30][INFO] Received response from OpenAI
+[2025-05-15 23:49:30][INFO] Estimated token count: 1005.5
+[2025-05-15 23:49:30][INFO] Recording token usage
+[2025-05-15 23:49:30][INFO] Recording token usage for user_id: 18, count: 1005.5 on date: 2025-05-15
+[2025-05-15 23:49:30][INFO] Reconnecting to database (attempt 1)
+[2025-05-15 23:49:36][ERROR] Error in recordTokenUsage (attempt 1): MySQL server has gone away
+[2025-05-15 23:49:36][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:49:36][INFO] Waiting 2 seconds before retry
+[2025-05-15 23:49:38][INFO] Reconnecting to database (attempt 2)
+[2025-05-15 23:49:44][ERROR] Error in recordTokenUsage (attempt 2): MySQL server has gone away
+[2025-05-15 23:49:44][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:49:44][INFO] Waiting 4 seconds before retry
+[2025-05-15 23:49:48][INFO] Reconnecting to database (attempt 3)
+[2025-05-15 23:49:54][ERROR] Error in recordTokenUsage (attempt 3): MySQL server has gone away
+[2025-05-15 23:49:54][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:49:54][ERROR] Failed to record token usage after 3 attempts
+[2025-05-15 23:49:54][WARNING] Failed to record token usage, attempt 1 of 3
+[2025-05-15 23:49:56][INFO] Recording token usage for user_id: 18, count: 1005.5 on date: 2025-05-15
+[2025-05-15 23:49:56][INFO] Reconnecting to database (attempt 1)
+[2025-05-15 23:50:02][ERROR] Error in recordTokenUsage (attempt 1): MySQL server has gone away
+[2025-05-15 23:50:02][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:50:02][INFO] Waiting 2 seconds before retry
+[2025-05-15 23:50:04][INFO] Reconnecting to database (attempt 2)
+[2025-05-15 23:50:10][ERROR] Error in recordTokenUsage (attempt 2): MySQL server has gone away
+[2025-05-15 23:50:10][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:50:10][INFO] Waiting 4 seconds before retry
+[2025-05-15 23:50:14][INFO] Reconnecting to database (attempt 3)
+[2025-05-15 23:50:20][ERROR] Error in recordTokenUsage (attempt 3): MySQL server has gone away
+[2025-05-15 23:50:20][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:50:20][ERROR] Failed to record token usage after 3 attempts
+[2025-05-15 23:50:20][WARNING] Failed to record token usage, attempt 2 of 3
+[2025-05-15 23:50:24][INFO] Recording token usage for user_id: 18, count: 1005.5 on date: 2025-05-15
+[2025-05-15 23:50:24][INFO] Reconnecting to database (attempt 1)
+[2025-05-15 23:50:30][ERROR] Error in recordTokenUsage (attempt 1): MySQL server has gone away
+[2025-05-15 23:50:30][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:50:30][INFO] Waiting 2 seconds before retry
+[2025-05-15 23:50:32][INFO] Reconnecting to database (attempt 2)
+[2025-05-15 23:50:38][ERROR] Error in recordTokenUsage (attempt 2): MySQL server has gone away
+[2025-05-15 23:50:38][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:50:38][INFO] Waiting 4 seconds before retry
+[2025-05-15 23:50:42][INFO] Reconnecting to database (attempt 3)
+[2025-05-15 23:50:48][ERROR] Error in recordTokenUsage (attempt 3): MySQL server has gone away
+[2025-05-15 23:50:48][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(62): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(81): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#4 {main}
+[2025-05-15 23:50:48][ERROR] Failed to record token usage after 3 attempts
+[2025-05-15 23:50:48][WARNING] Failed to record token usage, attempt 3 of 3
+[2025-05-15 23:50:48][ERROR] Failed to record token usage after 3 attempts
+[2025-05-15 23:50:48][INFO] Reconnecting to database for response update
+[2025-05-15 23:50:54][ERROR] Error in getAIResponse: MySQL server has gone away
+[2025-05-15 23:50:54][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(99): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(69): AIService->getAIResponse()
+#3 {main}

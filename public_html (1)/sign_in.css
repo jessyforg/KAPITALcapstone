@@ -1,0 +1,240 @@
+/* Import Poppins font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* Import Typographica font */
+@font-face {
+	font-family: 'Typographica';
+	src: url('fonts/Typographica.ttf') format('truetype');
+}
+
+/* General Reset and Box Model */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif; /* Apply Poppins font */
+	background: linear-gradient(
+		45deg,
+		#ffd700,
+		#000000
+	); /* Black to Gold Gradient */
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Container for centering the form */
+.container {
+	background-color: rgba(255, 255, 255, 0.95);
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 420px;
+	max-height: 90vh;
+	text-align: center;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	overflow-y: auto;
+}
+
+/* Heading Style */
+h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: #000000; /* Black color for text */
+	font-weight: 600; /* Bold weight for heading */
+}
+
+/* Form Elements */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Input fields */
+input,
+select,
+button {
+	padding: 12px;
+	margin: 10px 0;
+	border: 1px solid #ffd700; /* Gold border for inputs */
+	border-radius: 5px;
+	font-size: 1rem;
+	font-family: "Poppins", sans-serif; /* Apply Poppins font to inputs and buttons */
+}
+
+/* Focused input styling */
+input:focus,
+select:focus {
+	border-color: #ffd700; /* Gold focus border */
+	outline: none;
+}
+
+/* Button styling */
+button {
+	background-color: #ffd700; /* Gold button */
+	color: black;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border: none;
+	border-radius: 5px;
+	font-family: "Poppins", sans-serif; /* Apply Poppins font to button */
+}
+
+button:hover {
+	background-color: #ffcc00; /* Slightly darker gold on hover */
+}
+
+/* General link styling */
+a {
+	color: #800080;
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+	font-size: 1em;
+}
+
+/* Kapital Logo styling - using !important to override general link styles */
+a.kapital-logo {
+	font-size: 3.5em !important;
+	font-weight: bold !important;
+	color: #800080 !important;
+	text-decoration: none !important;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 5px;
+	transition: transform 0.3s ease;
+	display: block;
+}
+
+a.kapital-logo:hover {
+	transform: scale(1.05);
+	text-decoration: none !important;
+	color: #800080 !important;
+}
+
+/* Action links styling */
+a.sign-up-btn {
+	font-size: 1em !important;
+	color: #800080;
+}
+
+a.sign-up-btn:hover {
+	text-decoration: underline;
+	color: #660066;
+}
+
+.partnership {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.partnership span {
+	font-size: 0.9rem;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.taraki-logo {
+	width: 100px;
+	height: auto;
+}
+
+/* Form Container */
+.form-container {
+	background: white;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.signin-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* Error Message */
+.error-message {
+	color: #ff3333;
+	margin: 0 0 20px 0;
+	font-size: 0.9rem;
+	text-align: center;
+	width: 100%;
+}
+
+/* Remove old notification styles */
+.notification {
+	display: none;
+}
+
+/* Responsiveness */
+@media (max-width: 480px) {
+	.container {
+		width: 90%;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+	}
+
+	input,
+	select,
+	button {
+		font-size: 1rem;
+		padding: 10px;
+	}
+}
+
+/* Logo Section Styles */
+.logo-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+.logos-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	max-width: 400px;
+}
+
+/* Logo styling */
+.kapital-logo {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.kapital-logo-img {
+	width: 200px;
+	height: auto;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.kapital-logo:hover .kapital-logo-img {
+	transform: scale(1.1);
+	filter: brightness(1.1);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Remove old modal/notification styles */
+.modal, .modal-content, .close {
+	display: none;
+}

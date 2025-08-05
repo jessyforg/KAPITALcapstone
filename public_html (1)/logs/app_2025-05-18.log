@@ -1,0 +1,181 @@
+[2025-05-18 21:54:37][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 21:54:41][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 21:54:45][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 21:55:27][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 21:55:35][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 21:55:35][INFO] Reconnecting to database
+[2025-05-18 21:55:35][INFO] Current token usage: 0 / 1000
+[2025-05-18 21:55:35][INFO] Recording token usage for user_id: 20, count: 340.25 on date: 2025-05-18
+[2025-05-18 21:55:35][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 21:55:35][INFO] Successfully recorded token usage
+[2025-05-18 21:56:34][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 21:57:24][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 21:57:52][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 21:57:56][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 21:57:56][INFO] Reconnecting to database
+[2025-05-18 21:57:56][INFO] Current token usage: 340 / 1000
+[2025-05-18 21:57:56][INFO] Recording token usage for user_id: 20, count: 314.25 on date: 2025-05-18
+[2025-05-18 21:57:56][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 21:57:56][INFO] Successfully recorded token usage
+[2025-05-18 21:58:11][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 21:58:11][INFO] Reconnecting to database
+[2025-05-18 21:58:11][INFO] Current token usage: 654 / 1000
+[2025-05-18 21:58:11][INFO] Recording token usage for user_id: 20, count: 793.5 on date: 2025-05-18
+[2025-05-18 21:58:11][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 21:58:11][INFO] Successfully recorded token usage
+[2025-05-18 21:58:34][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 21:58:39][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 21:58:39][INFO] Reconnecting to database
+[2025-05-18 21:58:39][INFO] Current token usage: 1447 / 1000
+[2025-05-18 21:58:57][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 21:58:57][INFO] Reconnecting to database
+[2025-05-18 21:58:57][INFO] Current token usage: 1447 / 1000
+[2025-05-18 21:58:58][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 21:58:58][INFO] Reconnecting to database
+[2025-05-18 21:58:58][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:00:42][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 22:00:47][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:00:47][INFO] Reconnecting to database
+[2025-05-18 22:00:47][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:01:01][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:01:01][INFO] Reconnecting to database
+[2025-05-18 22:01:01][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:01:02][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:01:02][INFO] Reconnecting to database
+[2025-05-18 22:01:02][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:01:19][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:01:19][INFO] Reconnecting to database
+[2025-05-18 22:01:19][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:03:32][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 22:03:38][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:03:38][INFO] Reconnecting to database
+[2025-05-18 22:03:38][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:03:49][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:03:49][INFO] Reconnecting to database
+[2025-05-18 22:03:49][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:03:50][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:03:50][INFO] Reconnecting to database
+[2025-05-18 22:03:50][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:04:07][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:04:07][INFO] Reconnecting to database
+[2025-05-18 22:04:07][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:04:25][INFO] Checking token limit for user_id: 20 on date: 2025-05-18
+[2025-05-18 22:04:25][INFO] Reconnecting to database
+[2025-05-18 22:04:25][INFO] Current token usage: 1447 / 1000
+[2025-05-18 22:06:49][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 22:06:54][INFO] Recording token usage for user_id: 20, count: 295 on date: 2025-05-18
+[2025-05-18 22:06:54][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:06:54][INFO] Successfully recorded token usage
+[2025-05-18 22:07:03][INFO] Recording token usage for user_id: 20, count: 594.25 on date: 2025-05-18
+[2025-05-18 22:07:03][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:07:04][INFO] Successfully recorded token usage
+[2025-05-18 22:07:04][INFO] Recording token usage for user_id: 20, count: 117.75 on date: 2025-05-18
+[2025-05-18 22:07:04][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:07:04][INFO] Successfully recorded token usage
+[2025-05-18 22:07:19][INFO] Recording token usage for user_id: 20, count: 569 on date: 2025-05-18
+[2025-05-18 22:07:19][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:07:19][INFO] Successfully recorded token usage
+[2025-05-18 22:07:34][INFO] Recording token usage for user_id: 20, count: 936 on date: 2025-05-18
+[2025-05-18 22:07:34][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:07:34][INFO] Successfully recorded token usage
+[2025-05-18 22:12:28][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 22:12:33][INFO] Recording token usage for user_id: 20, count: 312.75 on date: 2025-05-18
+[2025-05-18 22:12:33][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:12:33][INFO] Successfully recorded token usage
+[2025-05-18 22:12:57][INFO] Recording token usage for user_id: 20, count: 796.25 on date: 2025-05-18
+[2025-05-18 22:12:57][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:13:03][ERROR] Error in recordTokenUsage (attempt 1): MySQL server has gone away
+[2025-05-18 22:13:03][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(55): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(29): AIResumeHelper->enhanceWorkExperience()
+#5 {main}
+[2025-05-18 22:13:03][INFO] Waiting 2 seconds before retry
+[2025-05-18 22:13:05][INFO] Reconnecting to database (attempt 2)
+[2025-05-18 22:13:11][ERROR] Error in recordTokenUsage (attempt 2): MySQL server has gone away
+[2025-05-18 22:13:11][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(55): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(29): AIResumeHelper->enhanceWorkExperience()
+#5 {main}
+[2025-05-18 22:13:11][INFO] Waiting 4 seconds before retry
+[2025-05-18 22:13:15][INFO] Reconnecting to database (attempt 3)
+[2025-05-18 22:13:21][ERROR] Error in recordTokenUsage (attempt 3): MySQL server has gone away
+[2025-05-18 22:13:21][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(55): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(29): AIResumeHelper->enhanceWorkExperience()
+#5 {main}
+[2025-05-18 22:13:21][ERROR] Failed to record token usage after 3 attempts
+[2025-05-18 22:13:22][INFO] Recording token usage for user_id: 20, count: 117.75 on date: 2025-05-18
+[2025-05-18 22:13:22][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:13:28][ERROR] Error in recordTokenUsage (attempt 1): MySQL server has gone away
+[2025-05-18 22:13:28][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(121): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(35): AIResumeHelper->optimizeSkills()
+#5 {main}
+[2025-05-18 22:13:28][INFO] Waiting 2 seconds before retry
+[2025-05-18 22:13:30][INFO] Reconnecting to database (attempt 2)
+[2025-05-18 22:13:36][ERROR] Error in recordTokenUsage (attempt 2): MySQL server has gone away
+[2025-05-18 22:13:36][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(121): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(35): AIResumeHelper->optimizeSkills()
+#5 {main}
+[2025-05-18 22:13:36][INFO] Waiting 4 seconds before retry
+[2025-05-18 22:13:40][INFO] Reconnecting to database (attempt 3)
+[2025-05-18 22:13:46][ERROR] Error in recordTokenUsage (attempt 3): MySQL server has gone away
+[2025-05-18 22:13:46][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(121): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(35): AIResumeHelper->optimizeSkills()
+#5 {main}
+[2025-05-18 22:13:46][ERROR] Failed to record token usage after 3 attempts
+[2025-05-18 22:14:02][INFO] Recording token usage for user_id: 20, count: 747.75 on date: 2025-05-18
+[2025-05-18 22:14:02][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:14:08][ERROR] Error in recordTokenUsage (attempt 1): MySQL server has gone away
+[2025-05-18 22:14:08][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(151): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(41): AIResumeHelper->enhanceAchievements()
+#5 {main}
+[2025-05-18 22:14:08][INFO] Waiting 2 seconds before retry
+[2025-05-18 22:14:10][INFO] Reconnecting to database (attempt 2)
+[2025-05-18 22:14:16][ERROR] Error in recordTokenUsage (attempt 2): MySQL server has gone away
+[2025-05-18 22:14:16][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(151): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(41): AIResumeHelper->enhanceAchievements()
+#5 {main}
+[2025-05-18 22:14:16][INFO] Waiting 4 seconds before retry
+[2025-05-18 22:14:20][INFO] Reconnecting to database (attempt 3)
+[2025-05-18 22:14:26][ERROR] Error in recordTokenUsage (attempt 3): MySQL server has gone away
+[2025-05-18 22:14:26][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(28): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/ai_resume_helper.php(151): AIResumeHelper->checkAndRecordTokens()
+#4 /home/u882993081/domains/kapital-taraki.org/public_html/generate_resume.php(41): AIResumeHelper->enhanceAchievements()
+#5 {main}
+[2025-05-18 22:14:26][ERROR] Failed to record token usage after 3 attempts
+[2025-05-18 22:18:15][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-18 22:18:22][INFO] Recording token usage for user_id: 20, count: 397.25 on date: 2025-05-18
+[2025-05-18 22:18:22][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:18:22][INFO] Successfully recorded token usage
+[2025-05-18 22:18:29][INFO] Recording token usage for user_id: 20, count: 449 on date: 2025-05-18
+[2025-05-18 22:18:29][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:18:29][INFO] Successfully recorded token usage
+[2025-05-18 22:18:30][INFO] Recording token usage for user_id: 20, count: 117.75 on date: 2025-05-18
+[2025-05-18 22:18:30][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:18:30][INFO] Successfully recorded token usage
+[2025-05-18 22:18:44][INFO] Recording token usage for user_id: 20, count: 688.75 on date: 2025-05-18
+[2025-05-18 22:18:44][INFO] Reconnecting to database (attempt 1)
+[2025-05-18 22:18:44][INFO] Successfully recorded token usage

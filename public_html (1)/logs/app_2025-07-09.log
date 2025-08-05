@@ -1,0 +1,40 @@
+[2025-07-09 05:19:16][INFO] TokenTracker initialized with daily limit: 1000
+[2025-07-09 05:19:16][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-07-09 05:19:16][INFO] API Key length: 164
+[2025-07-09 05:19:16][INFO] Starting getAIResponse for user_id: 34
+[2025-07-09 05:19:16][INFO] Question: How can I attract potential investors?...
+[2025-07-09 05:19:16][INFO] Cache miss for question hash: 9b064eff21d82dea93c774273d39c83a
+[2025-07-09 05:19:16][INFO] Reconnecting to database
+[2025-07-09 05:19:16][INFO] Storing question in database
+[2025-07-09 05:19:16][INFO] Stored question with conversation_id: 159
+[2025-07-09 05:19:16][INFO] Calling OpenAI API
+[2025-07-09 05:19:16][INFO] Starting callOpenAI
+[2025-07-09 05:19:16][INFO] Preparing OpenAI API request with model: gpt-4-turbo-preview
+[2025-07-09 05:19:16][INFO] Sending request to OpenAI API
+[2025-07-09 05:19:35][INFO] Connection time: 0.009224 seconds
+[2025-07-09 05:19:35][INFO] Total request time: 18.452379 seconds
+[2025-07-09 05:19:35][INFO] Download speed: 115 bytes/second
+[2025-07-09 05:19:35][INFO] Received response from OpenAI API with HTTP code: 200
+[2025-07-09 05:19:35][INFO] Response: {
+  "id": "chatcmpl-BrHV7eHYXXobtq0ltN9b1kxINOHHA",
+  "object": "chat.completion",
+  "created": 1752038357,
+  "model": "gpt-4-0125-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+ ...
+[2025-07-09 05:19:35][INFO] Successfully extracted content from response
+[2025-07-09 05:19:35][INFO] Successfully received response from OpenAI
+[2025-07-09 05:19:35][INFO] Cached response for question hash: 9b064eff21d82dea93c774273d39c83a
+[2025-07-09 05:19:35][INFO] Estimated token count: 947.75
+[2025-07-09 05:19:35][INFO] Recording token usage
+[2025-07-09 05:19:35][INFO] Recording token usage for user_id: 34, count: 947.75 on date: 2025-07-09
+[2025-07-09 05:19:35][INFO] Reconnecting to database (attempt 1)
+[2025-07-09 05:19:35][INFO] Successfully recorded token usage
+[2025-07-09 05:19:35][INFO] Successfully recorded token usage
+[2025-07-09 05:19:35][INFO] Reconnecting to database for response update
+[2025-07-09 05:19:35][INFO] Updating response in database
+[2025-07-09 05:19:35][INFO] Successfully updated response in database
+[2025-07-09 05:19:35][INFO] Returning response to user

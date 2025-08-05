@@ -1,0 +1,20 @@
+<?php
+session_start();
+include('db_connection.php');
+if (!isset($_SESSION['user_id']) || !isset($_GET['file_id'])) die("Unauthorized");
+$file_id = (int)$_GET['file_id'];
+$stmt = $conn->prepare("SELECT mf.*, m.sender_id, m.receiver_id FROM Message_Files mf JOIN Messages m ON mf.message_id = m.message_id WHERE mf.file_id = ?");
+$stmt->bind_param("i", $file_id);
+$stmt->execute();
+$file = $stmt->get_result()->fetch_assoc();
+if (!$file) die("File not found");
+if ($_SESSION['user_id'] != $file['sender_id'] && $_SESSION['user_id'] != $file['receiver_id']) die("Unauthorized");
+header('Content-Description: File Transfer');
+header('Content-Type: application/octet-stream');
+header('Content-Disposition: attachment; filename="' . basename($file['file_name']) . '"');
+header('Expires: 0');
+header('Cache-Control: must-revalidate');
+header('Pragma: public');
+header('Content-Length: ' . filesize($file['file_path']));
+readfile($file['file_path']);
+exit; 

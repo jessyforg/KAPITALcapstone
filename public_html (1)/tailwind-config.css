@@ -1,0 +1,218 @@
+/* Tailwind CSS Configuration and Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Custom CSS variables for brand colors */
+:root {
+  --brand-orange: #ea580c;
+  --brand-orange-dark: #c2410c;
+  --brand-black: #000000;
+  --dark-bg: #1e1e1e;
+  --dark-card: #242424;
+  --dark-sidebar: #242526;
+  --text-light: #e4e6eb;
+  --border-dark: #3a3b3c;
+}
+
+/* Tailwind CSS CDN */
+@import 'https://cdn.tailwindcss.com/3.4.0';
+
+/* Custom Tailwind Configuration using CSS variables */
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-900 text-white min-w-[320px] overflow-x-hidden;
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+  }
+}
+
+@layer components {
+  /* Custom responsive utilities */
+  .container-responsive {
+    @apply w-full mx-auto px-4;
+    @apply xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24;
+    @apply xs:max-w-[475px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px];
+  }
+  
+  /* Brand color utilities */
+  .bg-brand-orange { background-color: var(--brand-orange); }
+  .bg-brand-orange-dark { background-color: var(--brand-orange-dark); }
+  .bg-dark-main { background-color: var(--dark-bg); }
+  .bg-dark-card { background-color: var(--dark-card); }
+  .bg-dark-sidebar { background-color: var(--dark-sidebar); }
+  
+  .text-brand-orange { color: var(--brand-orange); }
+  .text-brand-orange-dark { color: var(--brand-orange-dark); }
+  .text-light { color: var(--text-light); }
+  
+  .border-brand-orange { border-color: var(--brand-orange); }
+  .border-dark { border-color: var(--border-dark); }
+  
+  /* Common layout utilities */
+  .navbar-height { height: 72px; }
+  .navbar-spacing { margin-top: 120px; } /* navbar height + extra padding for clearance */
+  .navbar-spacing-compact { margin-top: 100px; } /* For tighter layouts */
+  
+  /* Responsive navbar spacing */
+  @media (max-width: 768px) {
+    .navbar-spacing { margin-top: 100px; }
+    .navbar-spacing-compact { margin-top: 88px; }
+  }
+  
+  @media (max-width: 475px) {
+    .navbar-spacing { margin-top: 88px; }
+    .navbar-spacing-compact { margin-top: 80px; }
+  }
+  
+  /* Responsive text utilities */
+  .text-responsive-sm { @apply text-sm xs:text-base sm:text-lg; }
+  .text-responsive-base { @apply text-base xs:text-lg sm:text-xl; }
+  .text-responsive-lg { @apply text-lg xs:text-xl sm:text-2xl md:text-3xl; }
+  .text-responsive-xl { @apply text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl; }
+  
+  /* Responsive padding utilities */
+  .p-responsive { @apply p-4 xs:p-6 sm:p-8 md:p-10 lg:p-12; }
+  .px-responsive { @apply px-4 xs:px-6 sm:px-8 md:px-10 lg:px-12; }
+  .py-responsive { @apply py-4 xs:py-6 sm:py-8 md:py-10 lg:py-12; }
+  
+  /* Responsive margin utilities */
+  .m-responsive { @apply m-4 xs:m-6 sm:m-8 md:m-10 lg:m-12; }
+  .mx-responsive { @apply mx-4 xs:mx-6 sm:mx-8 md:mx-10 lg:mx-12; }
+  .my-responsive { @apply my-4 xs:my-6 sm:my-8 md:my-10 lg:my-12; }
+  
+  /* Custom component classes */
+  .btn-primary {
+    @apply bg-brand-orange text-black font-semibold py-3 px-6 rounded-lg;
+    @apply hover:bg-black hover:text-brand-orange transition-all duration-300;
+    @apply focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-opacity-50;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-brand-orange text-brand-orange font-semibold py-3 px-6 rounded-lg;
+    @apply hover:bg-brand-orange hover:text-black transition-all duration-300;
+    @apply focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-opacity-50;
+  }
+  
+  .card-dark {
+    @apply bg-dark-card rounded-xl p-6 shadow-lg border border-dark;
+    @apply hover:shadow-xl transition-shadow duration-300;
+  }
+  
+  .input-dark {
+    @apply bg-gray-800 border border-brand-orange rounded-lg px-4 py-3 text-white;
+    @apply focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-transparent;
+    @apply placeholder-gray-400;
+  }
+  
+  /* Navbar specific classes */
+  .navbar-floating {
+    @apply fixed top-0 left-0 right-0 z-50;
+    @apply mt-4 mx-auto max-w-screen-xl;
+    @apply rounded-3xl shadow-2xl;
+    background: rgba(36, 37, 38, 0.85);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    @apply border border-brand-orange border-opacity-20;
+  }
+  
+  /* Sidebar classes */
+  .sidebar-floating {
+    @apply fixed top-20 left-4 z-40;
+    @apply w-64 min-h-[80vh] rounded-3xl shadow-2xl;
+    background: rgba(36, 37, 38, 0.85);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    @apply transition-all duration-300;
+  }
+  
+  .sidebar-collapsed {
+    @apply w-0 min-w-0 overflow-hidden p-0;
+  }
+  
+  /* Message layout classes */
+  .messages-layout {
+    @apply flex h-screen bg-dark-main;
+    @apply pt-20; /* Account for navbar */
+  }
+  
+  .messages-sidebar {
+    @apply w-80 bg-dark-sidebar border-r border-dark flex flex-col;
+    @apply xs:w-full sm:w-80; /* Full width on extra small screens */
+  }
+  
+  .messages-content {
+    @apply flex-1 flex flex-col bg-dark-main overflow-hidden;
+  }
+  
+  /* Responsive grid utilities */
+  .grid-responsive-1 { @apply grid grid-cols-1; }
+  .grid-responsive-2 { @apply grid grid-cols-1 sm:grid-cols-2; }
+  .grid-responsive-3 { @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3; }
+  .grid-responsive-4 { @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4; }
+  
+  /* Gap utilities for responsive grids */
+  .gap-responsive { @apply gap-4 xs:gap-6 sm:gap-8; }
+}
+
+@layer utilities {
+  /* Custom breakpoint utilities */
+  .xs\:block { display: none; }
+  @media (min-width: 475px) {
+    .xs\:block { display: block; }
+    .xs\:hidden { display: none; }
+    .xs\:flex { display: flex; }
+    .xs\:grid { display: grid; }
+  }
+  
+  /* Prevent layout shifts */
+  .no-layout-shift {
+    @apply will-change-auto;
+    transform: translateZ(0);
+  }
+  
+  /* Safe area utilities for mobile */
+  .safe-top { padding-top: env(safe-area-inset-top); }
+  .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+  .safe-left { padding-left: env(safe-area-inset-left); }
+  .safe-right { padding-right: env(safe-area-inset-right); }
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.6s ease-out forwards;
+}
+
+/* Print styles */
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+} 

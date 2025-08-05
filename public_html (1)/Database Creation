@@ -1,0 +1,466 @@
+CREATE DATABASE StartupConnect
+    CHARACTER SET utf8mb4
+    COLLATE utf8mb4_unicode_ci;
+
+USE StartupConnect;
+
+CREATE TABLE Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role ENUM('entrepreneur', 'investor', 'job_seeker', 'admin') NOT NULL,
+    verification_status ENUM('pending', 'verified', 'not approved') DEFAULT 'pending',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    contact_number VARCHAR(20) DEFAULT NULL,
+    public_email VARCHAR(255) DEFAULT NULL
+);
+
+CREATE TABLE Entrepreneurs (
+    entrepreneur_id INT PRIMARY KEY,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (entrepreneur_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Investors (
+    investor_id INT PRIMARY KEY,
+    investment_range_min DECIMAL(15, 2) NOT NULL,
+    investment_range_max DECIMAL(15, 2) NOT NULL,
+    preferred_industries JSON,
+    preferred_locations JSON,
+    funding_stage_preferences JSON,
+    bio TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (investor_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Job_Seekers (
+    job_seeker_id INT PRIMARY KEY,
+    skills JSON,
+    preferred_industries JSON,
+    desired_role VARCHAR(255),
+    experience_level ENUM('entry', 'mid', 'senior') NOT NULL,
+    location_preference VARCHAR(255),
+    bio TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (job_seeker_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Resumes (
+    resume_id INT AUTO_INCREMENT PRIMARY KEY,
+    job_seeker_id INT NOT NULL,
+    file_name VARCHAR(255) NOT NULL,
+    file_path VARCHAR(255) NOT NULL,
+    file_type VARCHAR(50) NOT NULL,
+    file_size INT NOT NULL,
+    uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    is_active BOOLEAN DEFAULT TRUE,
+    FOREIGN KEY (job_seeker_id) REFERENCES Job_Seekers(job_seeker_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Startups (
+    startup_id INT AUTO_INCREMENT PRIMARY KEY,
+    entrepreneur_id INT NOT NULL,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    industry VARCHAR(255) NOT NULL,
+    description TEXT,
+    location VARCHAR(255),
+    funding_needed DECIMAL(15, 2),
+    pitch_deck_url VARCHAR(255),
+    business_plan_url VARCHAR(255),
+    approval_status ENUM('pending', 'approved', 'rejected') DEFAULT 'pending',
+    approved_by INT DEFAULT NULL,
+    approval_comment TEXT DEFAULT NULL,
+    logo_url VARCHAR(255),
+    video_url VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (entrepreneur_id) REFERENCES Entrepreneurs(entrepreneur_id) ON DELETE CASCADE,
+    FOREIGN KEY (approved_by) REFERENCES Users(user_id) ON DELETE SET NULL
+);
+
+CREATE TABLE Jobs (
+    job_id INT AUTO_INCREMENT PRIMARY KEY,
+    startup_id INT NOT NULL,
+    role VARCHAR(255) NOT NULL,
+    description TEXT,
+    requirements TEXT,
+    location VARCHAR(255),
+    salary_range_min DECIMAL(15, 2),
+    salary_range_max DECIMAL(15, 2),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (startup_id) REFERENCES Startups(startup_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Matches (
+    match_id INT AUTO_INCREMENT PRIMARY KEY,
+    startup_id INT NOT NULL,
+    investor_id INT NOT NULL,
+    match_score DECIMAL(5, 2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (startup_id) REFERENCES Startups(startup_id) ON DELETE CASCADE,
+    FOREIGN KEY (investor_id) REFERENCES Investors(investor_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Applications (
+    application_id INT AUTO_INCREMENT PRIMARY KEY,
+    job_id INT NOT NULL,
+    job_seeker_id INT NOT NULL,
+    status ENUM('applied', 'reviewed', 'interviewed', 'hired', 'rejected') DEFAULT 'applied',
+    cover_letter TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (job_id) REFERENCES Jobs(job_id) ON DELETE CASCADE,
+    FOREIGN KEY (job_seeker_id) REFERENCES Job_Seekers(job_seeker_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Messages (
+    message_id INT AUTO_INCREMENT PRIMARY KEY,
+    sender_id INT NOT NULL,
+    receiver_id INT NOT NULL,
+    content TEXT NOT NULL,
+    status ENUM('unread', 'read') DEFAULT 'unread',
+    sent_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (sender_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (receiver_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Notifications (
+    notification_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL, -- Recipient of the notification
+    sender_id INT DEFAULT NULL, -- Optional: Who triggered the notification
+    type ENUM('message', 'application_status', 'investment_match', 'job_offer', 'system_alert', 'startup_status') NOT NULL,
+    message TEXT NOT NULL,
+    status ENUM('unread', 'read') DEFAULT 'unread',
+    job_id INT NULL,
+    application_id INT NULL,
+    match_id INT NULL,
+    url VARCHAR(255) NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (sender_id) REFERENCES Users(user_id) ON DELETE SET NULL,
+    FOREIGN KEY (job_id) REFERENCES Jobs(job_id) ON DELETE SET NULL,
+    FOREIGN KEY (application_id) REFERENCES Applications(application_id) ON DELETE SET NULL,
+    FOREIGN KEY (match_id) REFERENCES Matches(match_id) ON DELETE SET NULL
+);
+
+CREATE TABLE Verification_Documents (
+    document_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    document_type ENUM(
+        'government_id',
+        'passport',
+        'drivers_license',
+        'business_registration',
+        'professional_license',
+        'tax_certificate',
+        'bank_statement',
+        'utility_bill',
+        'proof_of_address',
+        'employment_certificate',
+        'educational_certificate',
+        'other'
+    ) NOT NULL,
+    file_name VARCHAR(255) NOT NULL,
+    file_path VARCHAR(255) NOT NULL,
+    file_type VARCHAR(50) NOT NULL,
+    file_size INT NOT NULL,
+    status ENUM('pending', 'approved', 'not approved') DEFAULT 'pending',
+    rejection_reason TEXT,
+    reviewed_by INT,
+    reviewed_at TIMESTAMP NULL,
+    uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    document_number VARCHAR(100),
+    issue_date DATE,
+    expiry_date DATE,
+    issuing_authority VARCHAR(100),
+    additional_info TEXT,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (reviewed_by) REFERENCES Users(user_id) ON DELETE SET NULL
+);
+
+CREATE INDEX idx_document_type ON Verification_Documents(document_type);
+
+CREATE TABLE IF NOT EXISTS Document_Validation_Rules (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    document_type VARCHAR(50) NOT NULL,
+    rule_name VARCHAR(100) NOT NULL,
+    rule_description TEXT,
+    validation_regex VARCHAR(255),
+    is_required BOOLEAN DEFAULT TRUE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO Document_Validation_Rules (document_type, rule_name, rule_description, validation_regex) VALUES
+('passport', 'passport_number', 'Passport number format validation', '^[A-Z]{2}[0-9]{7}$'),
+('drivers_license', 'license_number', 'Driver\'s license number format', '^[A-Z0-9]{8,12}$'),
+('tax_certificate', 'tax_number', 'Tax certificate number format', '^[0-9]{9,12}$');
+
+CREATE TABLE IF NOT EXISTS Document_Verification_History (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    document_id INT NOT NULL,
+    previous_status VARCHAR(20),
+    new_status VARCHAR(20),
+    changed_by INT,
+    change_reason TEXT,
+    changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (document_id) REFERENCES Verification_Documents(document_id) ON DELETE CASCADE,
+    FOREIGN KEY (changed_by) REFERENCES Users(user_id) ON DELETE SET NULL
+);
+
+DELIMITER $$
+
+CREATE TRIGGER job_application_notification
+AFTER INSERT ON Applications
+FOR EACH ROW
+BEGIN
+    INSERT INTO Notifications (user_id, sender_id, type, message, job_id, application_id, status)
+    VALUES (
+        (SELECT entrepreneur_id FROM Startups WHERE startup_id = (SELECT startup_id FROM Jobs WHERE job_id = NEW.job_id)),
+        NEW.job_seeker_id,
+        'application_status',
+        CONCAT('Job seeker ', (SELECT name FROM Users WHERE user_id = NEW.job_seeker_id), ' applied for your job: ', (SELECT role FROM Jobs WHERE job_id = NEW.job_id)),
+        NEW.job_id,
+        NEW.application_id,
+        'unread'
+    );
+END $$
+
+DELIMITER $$
+
+CREATE TRIGGER application_status_update_notification
+AFTER UPDATE ON Applications
+FOR EACH ROW
+BEGIN
+    INSERT INTO Notifications (user_id, sender_id, type, message, application_id, status)
+    VALUES (
+        NEW.job_seeker_id,
+        (SELECT entrepreneur_id FROM Startups WHERE startup_id = (SELECT startup_id FROM Jobs WHERE job_id = NEW.job_id)),
+        'application_status',
+        CONCAT('The status of your application for job: ', (SELECT role FROM Jobs WHERE job_id = NEW.job_id), ' has been updated to: ', NEW.status),
+        NEW.application_id,
+        'unread'
+    );
+END $$
+
+DELIMITER $$
+
+CREATE TRIGGER startup_status_update_notification
+AFTER UPDATE ON Startups
+FOR EACH ROW
+BEGIN
+    IF OLD.approval_status != NEW.approval_status THEN
+        INSERT INTO Notifications (user_id, sender_id, type, message, status)
+        VALUES (
+            (SELECT entrepreneur_id FROM Startups WHERE startup_id = NEW.startup_id),
+            NULL,
+            'startup_status',
+            CONCAT('Your startup ', NEW.name, ' has been updated to: ', NEW.approval_status),
+            'unread'
+        );
+    END IF;
+END $$
+
+DELIMITER ;
+
+
+ALTER TABLE Job_Seekers 
+DROP COLUMN IF EXISTS resume_url;
+
+-- Create the Resumes table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Resumes (
+    resume_id INT AUTO_INCREMENT PRIMARY KEY,
+    job_seeker_id INT NOT NULL,
+    file_name VARCHAR(255) NOT NULL,
+    file_path VARCHAR(255) NOT NULL,
+    file_type VARCHAR(50) NOT NULL,
+    file_size INT NOT NULL,
+    uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    is_active BOOLEAN DEFAULT TRUE,
+    FOREIGN KEY (job_seeker_id) REFERENCES Job_Seekers(job_seeker_id) ON DELETE CASCADE
+);
+
+-- Add indexes for better performance
+CREATE INDEX idx_job_seeker_active ON Resumes(job_seeker_id, is_active);
+
+-- Modify the Users table verification_status enum
+ALTER TABLE Users 
+MODIFY COLUMN verification_status ENUM('pending', 'verified', 'not approved') DEFAULT 'pending';
+
+-- Modify the Verification_Documents table status enum
+ALTER TABLE Verification_Documents 
+MODIFY COLUMN status ENUM('pending', 'approved', 'not approved') DEFAULT 'pending';
+
+-- Update any existing 'rejected' statuses to 'not approved'
+UPDATE Users SET verification_status = 'not approved' WHERE verification_status = 'rejected';
+UPDATE Verification_Documents SET status = 'not approved' WHERE status = 'rejected';
+
+-- First, add the columns to Messages table if they don't exist
+ALTER TABLE Messages 
+ADD COLUMN IF NOT EXISTS request_status ENUM('pending', 'approved', 'rejected') DEFAULT 'pending',
+ADD COLUMN IF NOT EXISTS is_intro_message BOOLEAN DEFAULT FALSE;
+
+-- Create Conversation_Requests table
+CREATE TABLE IF NOT EXISTS Conversation_Requests (
+    request_id INT AUTO_INCREMENT PRIMARY KEY,
+    sender_id INT NOT NULL,
+    receiver_id INT NOT NULL,
+    status ENUM('pending', 'approved', 'rejected') DEFAULT 'pending',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (sender_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (receiver_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+-- Drop existing triggers if they exist
+DROP TRIGGER IF EXISTS create_conversation_request;
+DROP TRIGGER IF EXISTS update_message_visibility;
+
+-- Create triggers
+DELIMITER $$
+
+CREATE TRIGGER create_conversation_request
+AFTER INSERT ON Messages
+FOR EACH ROW
+BEGIN
+    IF NEW.is_intro_message = TRUE THEN
+        INSERT INTO Conversation_Requests (sender_id, receiver_id)
+        VALUES (NEW.sender_id, NEW.receiver_id)
+        ON DUPLICATE KEY UPDATE status = 'pending';
+    END IF;
+END $$
+
+CREATE TRIGGER update_message_visibility
+AFTER UPDATE ON Conversation_Requests
+FOR EACH ROW
+BEGIN
+    IF OLD.status != NEW.status THEN
+        UPDATE Messages 
+        SET request_status = NEW.status
+        WHERE sender_id = NEW.sender_id 
+        AND receiver_id = NEW.receiver_id
+        AND is_intro_message = TRUE;
+    END IF;
+END $$
+
+DELIMITER ;
+
+-- Create indexes
+CREATE INDEX IF NOT EXISTS idx_conversation_request_status ON Conversation_Requests(status);
+CREATE INDEX IF NOT EXISTS idx_message_request_status ON Messages(request_status);
+CREATE INDEX IF NOT EXISTS idx_message_intro ON Messages(is_intro_message);
+
+-- Create view
+DROP VIEW IF EXISTS UserVisibleMessages;
+CREATE VIEW UserVisibleMessages AS
+SELECT m.*
+FROM Messages m
+LEFT JOIN Conversation_Requests cr ON 
+    (m.sender_id = cr.sender_id AND m.receiver_id = cr.receiver_id)
+WHERE m.request_status = 'approved'
+   OR (m.is_intro_message = TRUE AND m.request_status = 'pending')
+   OR (m.sender_id = m.receiver_id);
+
+-- Create a trigger to enforce unique conversations
+DELIMITER $$
+
+CREATE TRIGGER enforce_unique_conversation
+BEFORE INSERT ON Conversation_Requests
+FOR EACH ROW
+BEGIN
+    IF EXISTS (
+        SELECT 1 FROM Conversation_Requests 
+        WHERE ((sender_id = NEW.sender_id AND receiver_id = NEW.receiver_id)
+        OR (sender_id = NEW.receiver_id AND receiver_id = NEW.sender_id))
+        AND status != 'rejected'
+    ) THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Conversation already exists between these users';
+    END IF;
+END $$
+
+DELIMITER ;
+
+-- Add new columns to Users table
+ALTER TABLE Users
+ADD COLUMN profile_picture_url VARCHAR(255) DEFAULT NULL,
+ADD COLUMN location VARCHAR(255) DEFAULT NULL,
+ADD COLUMN introduction TEXT DEFAULT NULL,
+ADD COLUMN accomplishments TEXT DEFAULT NULL,
+ADD COLUMN education TEXT DEFAULT NULL,
+ADD COLUMN employment TEXT DEFAULT NULL,
+ADD COLUMN gender ENUM('male', 'female', 'other', 'prefer_not_to_say') DEFAULT NULL,
+ADD COLUMN birthdate DATE DEFAULT NULL;
+
+-- Create table for social media links
+CREATE TABLE User_Social_Links (
+    user_id INT PRIMARY KEY,
+    facebook_url VARCHAR(255) DEFAULT NULL,
+    twitter_url VARCHAR(255) DEFAULT NULL,
+    instagram_url VARCHAR(255) DEFAULT NULL,
+    linkedin_url VARCHAR(255) DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+-- Create trigger to automatically create social links entry for new users
+DELIMITER $$
+
+CREATE TRIGGER create_user_social_links
+AFTER INSERT ON Users
+FOR EACH ROW
+BEGIN
+    INSERT INTO User_Social_Links (user_id)
+    VALUES (NEW.user_id);
+END $$
+
+DELIMITER ;
+
+-- Create a trigger to track document status changes
+DELIMITER $$
+
+CREATE TRIGGER track_document_status_changes
+AFTER UPDATE ON Verification_Documents
+FOR EACH ROW
+BEGIN
+    IF OLD.status != NEW.status THEN
+        INSERT INTO Document_Verification_History (
+            document_id,
+            previous_status,
+            new_status,
+            changed_by,
+            change_reason
+        ) VALUES (
+            NEW.document_id,
+            OLD.status,
+            NEW.status,
+            NEW.reviewed_by,
+            NEW.rejection_reason
+        );
+    END IF;
+END $$
+
+DELIMITER ;
+
+-- Update existing users to set public_email same as their current email
+UPDATE Users 
+SET public_email = email 
+WHERE public_email IS NULL;
+
+-- Add indexes for better performance
+CREATE INDEX idx_contact_number ON Users(contact_number);
+CREATE INDEX idx_public_email ON Users(public_email);
+
+ALTER TABLE Users ADD COLUMN IF NOT EXISTS industry VARCHAR(255) DEFAULT NULL;
+ALTER TABLE Users ADD COLUMN IF NOT EXISTS location VARCHAR(255) DEFAULT NULL;
+ALTER TABLE Users ADD COLUMN IF NOT EXISTS introduction TEXT DEFAULT NULL;
+ALTER TABLE Users ADD COLUMN IF NOT EXISTS accomplishments TEXT DEFAULT NULL;
+ALTER TABLE Users ADD COLUMN IF NOT EXISTS education TEXT DEFAULT NULL;
+ALTER TABLE Users ADD COLUMN IF NOT EXISTS employment TEXT DEFAULT NULL;
+ALTER TABLE Users ADD COLUMN IF NOT EXISTS gender ENUM('male', 'female', 'other', 'prefer_not_to_say') DEFAULT NULL;
+ALTER TABLE Users ADD COLUMN IF NOT EXISTS birthdate DATE DEFAULT NULL;

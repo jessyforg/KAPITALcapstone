@@ -1,0 +1,40 @@
+[2025-05-25 16:23:09][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-25 16:23:09][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-05-25 16:23:09][INFO] API Key length: 164
+[2025-05-25 16:23:09][INFO] Starting getAIResponse for user_id: 18
+[2025-05-25 16:23:09][INFO] Question: How do I identify my target market?...
+[2025-05-25 16:23:09][INFO] Cache miss for question hash: 7f0d42beaed3f130455ec014d47968c4
+[2025-05-25 16:23:09][INFO] Reconnecting to database
+[2025-05-25 16:23:09][INFO] Storing question in database
+[2025-05-25 16:23:09][INFO] Stored question with conversation_id: 158
+[2025-05-25 16:23:09][INFO] Calling OpenAI API
+[2025-05-25 16:23:09][INFO] Starting callOpenAI
+[2025-05-25 16:23:09][INFO] Preparing OpenAI API request with model: gpt-4-turbo-preview
+[2025-05-25 16:23:09][INFO] Sending request to OpenAI API
+[2025-05-25 16:23:23][INFO] Connection time: 0.016988 seconds
+[2025-05-25 16:23:23][INFO] Total request time: 13.657287 seconds
+[2025-05-25 16:23:23][INFO] Download speed: 124 bytes/second
+[2025-05-25 16:23:23][INFO] Received response from OpenAI API with HTTP code: 200
+[2025-05-25 16:23:23][INFO] Response: {
+  "id": "chatcmpl-Bb8Q2ua5FCygR2A5DYP9l8i9jUcEJ",
+  "object": "chat.completion",
+  "created": 1748190198,
+  "model": "gpt-4-0125-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+ ...
+[2025-05-25 16:23:23][INFO] Successfully extracted content from response
+[2025-05-25 16:23:23][INFO] Successfully received response from OpenAI
+[2025-05-25 16:23:23][INFO] Cached response for question hash: 7f0d42beaed3f130455ec014d47968c4
+[2025-05-25 16:23:23][INFO] Estimated token count: 695
+[2025-05-25 16:23:23][INFO] Recording token usage
+[2025-05-25 16:23:23][INFO] Recording token usage for user_id: 18, count: 695 on date: 2025-05-25
+[2025-05-25 16:23:23][INFO] Reconnecting to database (attempt 1)
+[2025-05-25 16:23:23][INFO] Successfully recorded token usage
+[2025-05-25 16:23:23][INFO] Successfully recorded token usage
+[2025-05-25 16:23:23][INFO] Reconnecting to database for response update
+[2025-05-25 16:23:23][INFO] Updating response in database
+[2025-05-25 16:23:23][INFO] Successfully updated response in database
+[2025-05-25 16:23:23][INFO] Returning response to user

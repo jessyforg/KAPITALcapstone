@@ -1,0 +1,248 @@
+[2025-08-05 02:20:33][INFO] TokenTracker initialized with daily limit: 1000
+[2025-08-05 02:20:33][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-08-05 02:20:33][INFO] API Key length: 164
+[2025-08-05 02:20:33][INFO] Starting getAIResponse for user_id: 1
+[2025-08-05 02:20:33][INFO] Question: What are effective strategies for market research?...
+[2025-08-05 02:20:33][INFO] Cache miss for question hash: c5fb512ca7d0f133b36c679cea06c963
+[2025-08-05 02:20:33][INFO] Reconnecting to database
+[2025-08-05 02:20:33][INFO] Storing question in database
+[2025-08-05 02:20:33][ERROR] Error in getAIResponse: Column 'conversation_id' cannot be null
+[2025-08-05 02:20:33][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(100): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are effect...')
+#2 {main}
+[2025-08-05 02:21:26][INFO] TokenTracker initialized with daily limit: 1000
+[2025-08-05 02:21:26][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-08-05 02:21:26][INFO] API Key length: 164
+[2025-08-05 02:21:26][INFO] Starting getAIResponse for user_id: 1
+[2025-08-05 02:21:26][INFO] Question: What are the key financial metrics I should track?...
+[2025-08-05 02:21:26][INFO] Cache miss for question hash: ada534f94090915a879c691d682034c2
+[2025-08-05 02:21:26][INFO] Reconnecting to database
+[2025-08-05 02:21:26][INFO] Storing question in database
+[2025-08-05 02:21:26][ERROR] Error in getAIResponse: Column 'conversation_id' cannot be null
+[2025-08-05 02:21:26][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(100): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#2 {main}
+[2025-08-05 03:04:37][INFO] TokenTracker initialized with daily limit: 1000
+[2025-08-05 03:04:37][INFO] AIService initialized with model: gpt-3.5-turbo
+[2025-08-05 03:04:37][INFO] API Key length: 164
+[2025-08-05 03:04:37][INFO] Starting getAIResponse for user_id: 1
+[2025-08-05 03:04:37][INFO] Question: What are the key financial metrics I should track?...
+[2025-08-05 03:04:37][INFO] Cache miss for question hash: ada534f94090915a879c691d682034c2
+[2025-08-05 03:04:37][INFO] Reconnecting to database
+[2025-08-05 03:04:37][INFO] Storing question in database
+[2025-08-05 03:04:37][ERROR] Error in getAIResponse: Column 'conversation_id' cannot be null
+[2025-08-05 03:04:37][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(125): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#2 {main}
+[2025-08-05 03:07:13][INFO] TokenTracker initialized with daily limit: 1000
+[2025-08-05 03:07:13][INFO] AIService initialized with model: gpt-3.5-turbo
+[2025-08-05 03:07:13][INFO] API Key length: 164
+[2025-08-05 03:07:13][INFO] Starting getAIResponse for user_id: 1
+[2025-08-05 03:07:13][INFO] Question: What are the key financial metrics I should track?...
+[2025-08-05 03:07:13][WARNING] Error checking cache: Table 'kapital.ai_response_cache' doesn't exist
+[2025-08-05 03:07:13][INFO] Reconnecting to database
+[2025-08-05 03:07:13][INFO] Storing question in database
+[2025-08-05 03:07:13][INFO] Stored question with conversation_id: 1
+[2025-08-05 03:07:13][INFO] Calling OpenAI API
+[2025-08-05 03:07:13][INFO] Starting callOpenAI
+[2025-08-05 03:07:13][INFO] Preparing OpenAI API request with model: gpt-3.5-turbo
+[2025-08-05 03:07:13][INFO] Sending request to OpenAI API
+[2025-08-05 03:07:18][INFO] Connection time: 0.066376 seconds
+[2025-08-05 03:07:18][INFO] Total request time: 4.40075 seconds
+[2025-08-05 03:07:18][INFO] Download speed: 315 bytes/second
+[2025-08-05 03:07:18][INFO] Received response from OpenAI API with HTTP code: 200
+[2025-08-05 03:07:18][INFO] Response: {
+  "id": "chatcmpl-C10R1o927nFkCxkfWR8YeC7nqBYGo",
+  "object": "chat.completion",
+  "created": 1754356035,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+ ...
+[2025-08-05 03:07:18][INFO] Successfully extracted content from response
+[2025-08-05 03:07:18][INFO] Successfully received response from OpenAI
+[2025-08-05 03:07:18][WARNING] Error caching response: Table 'kapital.ai_response_cache' doesn't exist
+[2025-08-05 03:07:18][INFO] Estimated token count: 552.25
+[2025-08-05 03:07:18][INFO] Recording token usage
+[2025-08-05 03:07:18][INFO] Recording token usage for user_id: 1, count: 552.25 on date: 2025-08-05
+[2025-08-05 03:07:18][INFO] Reconnecting to database (attempt 1)
+[2025-08-05 03:07:18][ERROR] Error in recordTokenUsage (attempt 1): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:18][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:18][INFO] Waiting 2 seconds before retry
+[2025-08-05 03:07:20][INFO] Reconnecting to database (attempt 2)
+[2025-08-05 03:07:20][ERROR] Error in recordTokenUsage (attempt 2): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:20][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:20][INFO] Waiting 4 seconds before retry
+[2025-08-05 03:07:24][INFO] Reconnecting to database (attempt 3)
+[2025-08-05 03:07:24][ERROR] Error in recordTokenUsage (attempt 3): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:24][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:24][ERROR] Failed to record token usage after 3 attempts
+[2025-08-05 03:07:24][WARNING] Failed to record token usage, attempt 1 of 3
+[2025-08-05 03:07:26][INFO] Recording token usage for user_id: 1, count: 552.25 on date: 2025-08-05
+[2025-08-05 03:07:26][INFO] Reconnecting to database (attempt 1)
+[2025-08-05 03:07:26][ERROR] Error in recordTokenUsage (attempt 1): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:26][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:26][INFO] Waiting 2 seconds before retry
+[2025-08-05 03:07:28][INFO] Reconnecting to database (attempt 2)
+[2025-08-05 03:07:28][ERROR] Error in recordTokenUsage (attempt 2): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:28][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:28][INFO] Waiting 4 seconds before retry
+[2025-08-05 03:07:32][INFO] Reconnecting to database (attempt 3)
+[2025-08-05 03:07:32][ERROR] Error in recordTokenUsage (attempt 3): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:32][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:32][ERROR] Failed to record token usage after 3 attempts
+[2025-08-05 03:07:32][WARNING] Failed to record token usage, attempt 2 of 3
+[2025-08-05 03:07:36][INFO] Recording token usage for user_id: 1, count: 552.25 on date: 2025-08-05
+[2025-08-05 03:07:36][INFO] Reconnecting to database (attempt 1)
+[2025-08-05 03:07:36][ERROR] Error in recordTokenUsage (attempt 1): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:36][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:36][INFO] Waiting 2 seconds before retry
+[2025-08-05 03:07:38][INFO] Reconnecting to database (attempt 2)
+[2025-08-05 03:07:38][ERROR] Error in recordTokenUsage (attempt 2): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:38][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:38][INFO] Waiting 4 seconds before retry
+[2025-08-05 03:07:42][INFO] Reconnecting to database (attempt 3)
+[2025-08-05 03:07:42][ERROR] Error in recordTokenUsage (attempt 3): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:07:42][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 552.25)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(71): AIService->getAIResponse('1', 'What are the ke...')
+#3 {main}
+[2025-08-05 03:07:42][ERROR] Failed to record token usage after 3 attempts
+[2025-08-05 03:07:42][WARNING] Failed to record token usage, attempt 3 of 3
+[2025-08-05 03:07:42][ERROR] Failed to record token usage after 3 attempts
+[2025-08-05 03:07:42][INFO] Reconnecting to database for response update
+[2025-08-05 03:07:42][INFO] Updating response in database
+[2025-08-05 03:07:42][INFO] Successfully updated response in database
+[2025-08-05 03:07:42][INFO] Returning response to user
+[2025-08-05 03:10:21][INFO] TokenTracker initialized with daily limit: 1000
+[2025-08-05 03:10:21][INFO] AIService initialized with model: gpt-3.5-turbo
+[2025-08-05 03:10:21][INFO] API Key length: 164
+[2025-08-05 03:10:21][INFO] Starting getAIResponse for user_id: 1
+[2025-08-05 03:10:21][INFO] Question: How do I identify my target market?...
+[2025-08-05 03:10:21][WARNING] Error checking cache: Table 'kapital.ai_response_cache' doesn't exist
+[2025-08-05 03:10:21][INFO] Reconnecting to database
+[2025-08-05 03:10:21][INFO] Storing question in database
+[2025-08-05 03:10:21][INFO] Stored question with conversation_id: 2
+[2025-08-05 03:10:21][INFO] Calling OpenAI API
+[2025-08-05 03:10:21][INFO] Starting callOpenAI
+[2025-08-05 03:10:21][INFO] Preparing OpenAI API request with model: gpt-3.5-turbo
+[2025-08-05 03:10:21][INFO] Sending request to OpenAI API
+[2025-08-05 03:10:25][INFO] Connection time: 0.185798 seconds
+[2025-08-05 03:10:25][INFO] Total request time: 4.03726 seconds
+[2025-08-05 03:10:25][INFO] Download speed: 298 bytes/second
+[2025-08-05 03:10:25][INFO] Received response from OpenAI API with HTTP code: 200
+[2025-08-05 03:10:25][INFO] Response: {
+  "id": "chatcmpl-C10U3Q9bXrx7B5xkZShJzVLR9IOOb",
+  "object": "chat.completion",
+  "created": 1754356223,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+ ...
+[2025-08-05 03:10:25][INFO] Successfully extracted content from response
+[2025-08-05 03:10:25][INFO] Successfully received response from OpenAI
+[2025-08-05 03:10:25][WARNING] Error caching response: Table 'kapital.ai_response_cache' doesn't exist
+[2025-08-05 03:10:25][INFO] Estimated token count: 433.5
+[2025-08-05 03:10:25][INFO] Recording token usage
+[2025-08-05 03:10:25][INFO] Recording token usage for user_id: 1, count: 433.5 on date: 2025-08-05
+[2025-08-05 03:10:25][INFO] Reconnecting to database (attempt 1)
+[2025-08-05 03:10:25][ERROR] Error in recordTokenUsage (attempt 1): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:25][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:25][INFO] Waiting 2 seconds before retry
+[2025-08-05 03:10:27][INFO] Reconnecting to database (attempt 2)
+[2025-08-05 03:10:27][ERROR] Error in recordTokenUsage (attempt 2): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:27][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:27][INFO] Waiting 4 seconds before retry
+[2025-08-05 03:10:31][INFO] Reconnecting to database (attempt 3)
+[2025-08-05 03:10:31][ERROR] Error in recordTokenUsage (attempt 3): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:31][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:31][ERROR] Failed to record token usage after 3 attempts
+[2025-08-05 03:10:31][WARNING] Failed to record token usage, attempt 1 of 3
+[2025-08-05 03:10:33][INFO] Recording token usage for user_id: 1, count: 433.5 on date: 2025-08-05
+[2025-08-05 03:10:33][INFO] Reconnecting to database (attempt 1)
+[2025-08-05 03:10:33][ERROR] Error in recordTokenUsage (attempt 1): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:33][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:33][INFO] Waiting 2 seconds before retry
+[2025-08-05 03:10:35][INFO] Reconnecting to database (attempt 2)
+[2025-08-05 03:10:35][ERROR] Error in recordTokenUsage (attempt 2): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:35][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:35][INFO] Waiting 4 seconds before retry
+[2025-08-05 03:10:39][INFO] Reconnecting to database (attempt 3)
+[2025-08-05 03:10:39][ERROR] Error in recordTokenUsage (attempt 3): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:39][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:39][ERROR] Failed to record token usage after 3 attempts
+[2025-08-05 03:10:39][WARNING] Failed to record token usage, attempt 2 of 3
+[2025-08-05 03:10:43][INFO] Recording token usage for user_id: 1, count: 433.5 on date: 2025-08-05
+[2025-08-05 03:10:43][INFO] Reconnecting to database (attempt 1)
+[2025-08-05 03:10:43][ERROR] Error in recordTokenUsage (attempt 1): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:43][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:43][INFO] Waiting 2 seconds before retry
+[2025-08-05 03:10:45][INFO] Reconnecting to database (attempt 2)
+[2025-08-05 03:10:45][ERROR] Error in recordTokenUsage (attempt 2): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:45][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:45][INFO] Waiting 4 seconds before retry
+[2025-08-05 03:10:49][INFO] Reconnecting to database (attempt 3)
+[2025-08-05 03:10:49][ERROR] Error in recordTokenUsage (attempt 3): Table 'kapital.user_token_usage' doesn't exist
+[2025-08-05 03:10:49][ERROR] Stack trace: #0 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\token_tracker.php(33): mysqli->prepare('\r\n             ...')
+#1 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\ai_service.php(171): TokenTracker->recordTokenUsage('1', 433.5)
+#2 C:\xampp\htdocs\KAPITALCapstone\public_html (1)\startup_ai_advisor.php(76): AIService->getAIResponse('1', 'How do I identi...')
+#3 {main}
+[2025-08-05 03:10:49][ERROR] Failed to record token usage after 3 attempts
+[2025-08-05 03:10:49][WARNING] Failed to record token usage, attempt 3 of 3
+[2025-08-05 03:10:49][ERROR] Failed to record token usage after 3 attempts
+[2025-08-05 03:10:49][INFO] Reconnecting to database for response update
+[2025-08-05 03:10:49][INFO] Updating response in database
+[2025-08-05 03:10:49][INFO] Successfully updated response in database
+[2025-08-05 03:10:49][INFO] Returning response to user

@@ -1,0 +1,732 @@
+2025-03-12 23:06:19 - Total users in database: 3
+2025-03-12 23:06:19 - Search accessed
+2025-03-12 23:06:19 - Search query: startup
+2025-03-12 23:06:19 - Error: Unknown column 'profile_image' in 'field list'
+2025-03-12 23:08:24 - Total users in database: 3
+2025-03-12 23:08:24 - Search accessed
+2025-03-12 23:08:24 - Search query: star
+2025-03-12 23:08:24 - Error: Unknown column 'title' in 'field list'
+2025-03-12 23:08:25 - Total users in database: 3
+2025-03-12 23:08:25 - Search accessed
+2025-03-12 23:08:25 - Search query: startup
+2025-03-12 23:08:25 - Error: Unknown column 'title' in 'field list'
+2025-03-12 23:11:12 - Total users in database: 3
+2025-03-12 23:11:12 - Search accessed
+2025-03-12 23:11:12 - Search query: st
+2025-03-12 23:11:12 - Results found: 1
+2025-03-12 23:11:12 - Total users in database: 3
+2025-03-12 23:11:12 - Search accessed
+2025-03-12 23:11:12 - Search query: star
+2025-03-12 23:11:12 - Results found: 0
+2025-03-12 23:11:13 - Total users in database: 3
+2025-03-12 23:11:13 - Search accessed
+2025-03-12 23:11:13 - Search query: sta
+2025-03-12 23:11:13 - Results found: 0
+2025-03-12 23:11:14 - Total users in database: 3
+2025-03-12 23:11:14 - Search accessed
+2025-03-12 23:11:14 - Search query: inv
+2025-03-12 23:11:14 - Results found: 1
+2025-03-12 23:11:15 - Total users in database: 3
+2025-03-12 23:11:15 - Search accessed
+2025-03-12 23:11:15 - Search query: invest
+2025-03-12 23:11:15 - Results found: 1
+2025-03-12 23:11:19 - Total users in database: 3
+2025-03-12 23:11:19 - Search accessed
+2025-03-12 23:11:19 - Search query: sample
+2025-03-12 23:11:19 - Results found: 2
+2025-03-12 23:11:21 - Total users in database: 3
+2025-03-12 23:11:21 - Search accessed
+2025-03-12 23:11:21 - Search query: sampl
+2025-03-12 23:11:21 - Results found: 2
+2025-03-12 23:24:43 - Total users in database: 3
+2025-03-12 23:24:43 - Search accessed
+2025-03-12 23:24:43 - Search query: star
+2025-03-12 23:24:43 - Results found: 0
+2025-03-12 23:24:45 - Total users in database: 3
+2025-03-12 23:24:45 - Search accessed
+2025-03-12 23:24:45 - Search query: inv
+2025-03-12 23:24:45 - Results found: 1
+2025-03-12 23:29:00 - Total users in database: 3
+2025-03-12 23:29:00 - Search accessed
+2025-03-12 23:29:00 - Search query: sample
+2025-03-12 23:29:00 - Results found: 2
+2025-03-12 23:29:19 - Total users in database: 3
+2025-03-12 23:29:19 - Search accessed
+2025-03-12 23:29:19 - Search query: sample
+2025-03-12 23:29:19 - Results found: 2
+2025-03-12 23:33:47 - Total users in database: 3
+2025-03-12 23:33:47 - Search accessed
+2025-03-12 23:33:47 - Search query: sa
+2025-03-12 23:33:47 - Results found: 2
+2025-03-12 23:33:48 - Total users in database: 3
+2025-03-12 23:33:48 - Search accessed
+2025-03-12 23:33:48 - Search query: sample
+2025-03-12 23:33:48 - Results found: 2
+2025-03-12 23:33:58 - Total users in database: 3
+2025-03-12 23:33:58 - Search accessed
+2025-03-12 23:33:58 - Search query: sample
+2025-03-12 23:33:58 - Results found: 2
+2025-03-12 23:34:03 - Total users in database: 3
+2025-03-12 23:34:03 - Search accessed
+2025-03-12 23:34:03 - Search query: inv
+2025-03-12 23:34:03 - Results found: 1
+2025-03-12 23:41:25 - Total users in database: 3
+2025-03-12 23:41:25 - Search accessed
+2025-03-12 23:41:25 - Search query: samp
+2025-03-12 23:41:25 - Results found: 2
+2025-03-12 23:41:26 - Total users in database: 3
+2025-03-12 23:41:26 - Search accessed
+2025-03-12 23:41:26 - Search query: sample
+2025-03-12 23:41:26 - Results found: 2
+2025-03-12 23:41:31 - Total users in database: 3
+2025-03-12 23:41:31 - Search accessed
+2025-03-12 23:41:31 - Search query: inv
+2025-03-12 23:41:31 - Results found: 1
+2025-03-12 23:41:36 - Total users in database: 3
+2025-03-12 23:41:36 - Search accessed
+2025-03-12 23:41:36 - Search query: job
+2025-03-12 23:41:36 - Results found: 1
+2025-03-17 08:51:15 - Total users in database: 4
+2025-03-17 08:51:15 - Search accessed
+2025-03-17 08:51:15 - Search query: entrep
+2025-03-17 08:51:15 - Results found: 1
+2025-03-17 08:51:16 - Total users in database: 4
+2025-03-17 08:51:16 - Search accessed
+2025-03-17 08:51:16 - Search query: entr
+2025-03-17 08:51:16 - Results found: 1
+2025-03-17 08:51:16 - Total users in database: 4
+2025-03-17 08:51:16 - Search accessed
+2025-03-17 08:51:16 - Search query: ent
+2025-03-17 08:51:16 - Results found: 1
+2025-03-17 08:51:18 - Total users in database: 4
+2025-03-17 08:51:18 - Search accessed
+2025-03-17 08:51:18 - Search query: invest
+2025-03-17 08:51:18 - Results found: 1
+2025-03-17 08:51:51 - Total users in database: 4
+2025-03-17 08:51:51 - Search accessed
+2025-03-17 08:51:51 - Search query: jo
+2025-03-17 08:51:51 - Results found: 1
+2025-03-17 08:51:51 - Total users in database: 4
+2025-03-17 08:51:51 - Search accessed
+2025-03-17 08:51:51 - Search query: job
+2025-03-17 08:51:51 - Results found: 1
+2025-03-22 08:08:06 - Total users in database: 4
+2025-03-22 08:08:06 - Search accessed
+2025-03-22 08:08:06 - Search query: jo
+2025-03-22 08:08:06 - Results found: 1
+2025-03-22 08:08:07 - Total users in database: 4
+2025-03-22 08:08:07 - Search accessed
+2025-03-22 08:08:07 - Search query: job
+2025-03-22 08:08:07 - Results found: 1
+2025-03-27 15:10:37 - Total users in database: 4
+2025-03-27 15:10:37 - Search accessed
+2025-03-27 15:10:37 - Search query: job
+2025-03-27 15:10:37 - Results found: 1
+2025-03-28 03:27:17 - Total users in database: 4
+2025-03-28 03:27:17 - Search accessed
+2025-03-28 03:27:17 - Search query: in
+2025-03-28 03:27:17 - Results found: 2
+2025-03-28 03:27:17 - Total users in database: 4
+2025-03-28 03:27:17 - Search accessed
+2025-03-28 03:27:17 - Search query: inv
+2025-03-28 03:27:17 - Results found: 1
+2025-04-02 22:04:54 - Total users in database: 8
+2025-04-02 22:04:54 - Search accessed
+2025-04-02 22:04:54 - Search query: entrep
+2025-04-02 22:04:54 - Results found: 1
+2025-04-02 22:11:25 - Total users in database: 8
+2025-04-02 22:11:25 - Search accessed
+2025-04-02 22:11:25 - Search query: job see
+2025-04-02 22:11:25 - Results found: 0
+2025-04-02 22:11:26 - Total users in database: 8
+2025-04-02 22:11:26 - Search accessed
+2025-04-02 22:11:26 - Search query: job
+2025-04-02 22:11:26 - Results found: 1
+2025-04-03 08:26:09 - Total users in database: 8
+2025-04-03 08:26:09 - Search accessed
+2025-04-03 08:26:09 - Search query: invest
+2025-04-03 08:26:09 - Results found: 1
+2025-04-03 08:26:19 - Total users in database: 8
+2025-04-03 08:26:19 - Search accessed
+2025-04-03 08:26:19 - Search query: job
+2025-04-03 08:26:19 - Results found: 1
+2025-04-03 08:34:41 - Total users in database: 8
+2025-04-03 08:34:41 - Search accessed
+2025-04-03 08:34:41 - Search query: test
+2025-04-03 08:34:41 - Results found: 3
+2025-04-05 00:12:20 - Total users in database: 11
+2025-04-05 00:12:20 - Search accessed
+2025-04-05 00:12:20 - Search query: invest
+2025-04-05 00:12:20 - Results found: 1
+2025-04-05 00:26:42 - Total users in database: 11
+2025-04-05 00:26:42 - Search accessed
+2025-04-05 00:26:42 - Search query: inv
+2025-04-05 00:26:42 - Results found: 1
+2025-04-06 20:51:09 - Total users in database: 14
+2025-04-06 20:51:09 - Search accessed
+2025-04-06 20:51:09 - Search query: start
+2025-04-06 20:51:09 - Results found: 1
+2025-04-07 00:35:37 - Total users in database: 4
+2025-04-07 00:35:37 - Search accessed
+2025-04-07 00:35:37 - Search query: sample
+2025-04-07 00:35:37 - Results found: 0
+2025-04-07 00:35:41 - Total users in database: 4
+2025-04-07 00:35:41 - Search accessed
+2025-04-07 00:35:41 - Search query: st
+2025-04-07 00:35:41 - Results found: 3
+2025-04-07 00:35:42 - Total users in database: 4
+2025-04-07 00:35:42 - Search accessed
+2025-04-07 00:35:42 - Search query: st
+2025-04-07 00:35:42 - Results found: 3
+2025-04-07 00:36:09 - Total users in database: 4
+2025-04-07 00:36:09 - Search accessed
+2025-04-07 00:36:09 - Search query: admin
+2025-04-07 00:36:09 - Results found: 1
+2025-04-07 04:24:16 - Total users in database: 5
+2025-04-07 04:24:16 - Search accessed
+2025-04-07 04:24:16 - Search query: Admim
+2025-04-07 04:24:16 - Results found: 0
+2025-04-07 04:24:16 - Total users in database: 5
+2025-04-07 04:24:16 - Search accessed
+2025-04-07 04:24:16 - Search query: Admi
+2025-04-07 04:24:16 - Results found: 0
+2025-04-07 04:24:16 - Total users in database: 5
+2025-04-07 04:24:16 - Search accessed
+2025-04-07 04:24:16 - Search query: Admin
+2025-04-07 04:24:16 - Results found: 0
+2025-04-07 04:24:19 - Total users in database: 5
+2025-04-07 04:24:19 - Search accessed
+2025-04-07 04:24:19 - Search query: test
+2025-04-07 04:24:19 - Results found: 1
+2025-04-07 04:24:21 - Total users in database: 5
+2025-04-07 04:24:21 - Search accessed
+2025-04-07 04:24:21 - Search query: tes
+2025-04-07 04:24:21 - Results found: 1
+2025-04-07 04:24:24 - Total users in database: 5
+2025-04-07 04:24:24 - Search accessed
+2025-04-07 04:24:24 - Search query: invest
+2025-04-07 04:24:24 - Results found: 2
+2025-04-07 04:24:25 - Total users in database: 5
+2025-04-07 04:24:25 - Search accessed
+2025-04-07 04:24:25 - Search query: inves
+2025-04-07 04:24:25 - Results found: 2
+2025-04-07 04:26:11 - Total users in database: 5
+2025-04-07 04:26:11 - Search accessed
+2025-04-07 04:26:11 - Search query: inv
+2025-04-07 04:26:11 - Results found: 2
+2025-04-07 04:26:17 - Total users in database: 5
+2025-04-07 04:26:17 - Search accessed
+2025-04-07 04:26:17 - Search query: invest
+2025-04-07 04:26:17 - Results found: 2
+2025-04-07 04:26:21 - Total users in database: 5
+2025-04-07 04:26:21 - Search accessed
+2025-04-07 04:26:21 - Search query: Kapital
+2025-04-07 04:26:21 - Results found: 4
+2025-04-07 04:27:11 - Total users in database: 5
+2025-04-07 04:27:11 - Search accessed
+2025-04-07 04:27:11 - Search query: kapital
+2025-04-07 04:27:11 - Results found: 4
+2025-04-07 04:27:21 - Total users in database: 5
+2025-04-07 04:27:21 - Search accessed
+2025-04-07 04:27:21 - Search query: kapital
+2025-04-07 04:27:21 - Results found: 4
+2025-04-07 04:27:26 - Total users in database: 5
+2025-04-07 04:27:26 - Search accessed
+2025-04-07 04:27:26 - Search query: invest
+2025-04-07 04:27:26 - Results found: 2
+2025-04-07 04:28:06 - Total users in database: 5
+2025-04-07 04:28:06 - Search accessed
+2025-04-07 04:28:06 - Search query: kapital
+2025-04-07 04:28:06 - Results found: 4
+2025-04-07 04:28:20 - Total users in database: 5
+2025-04-07 04:28:20 - Search accessed
+2025-04-07 04:28:20 - Search query: job
+2025-04-07 04:28:20 - Results found: 2
+2025-04-07 04:29:05 - Total users in database: 5
+2025-04-07 04:29:05 - Search accessed
+2025-04-07 04:29:05 - Search query: invest
+2025-04-07 04:29:05 - Results found: 2
+2025-04-07 04:29:49 - Total users in database: 5
+2025-04-07 04:29:49 - Search accessed
+2025-04-07 04:29:49 - Search query: jes
+2025-04-07 04:29:49 - Results found: 1
+2025-04-07 04:29:51 - Total users in database: 5
+2025-04-07 04:29:51 - Search accessed
+2025-04-07 04:29:51 - Search query: eu
+2025-04-07 04:29:51 - Results found: 2
+2025-04-07 04:29:57 - Total users in database: 5
+2025-04-07 04:29:57 - Search accessed
+2025-04-07 04:29:57 - Search query: kapital
+2025-04-07 04:29:57 - Results found: 4
+2025-04-07 06:08:33 - Total users in database: 5
+2025-04-07 06:08:33 - Search accessed
+2025-04-07 06:08:33 - Search query: euge
+2025-04-07 06:08:33 - Results found: 1
+2025-04-07 06:08:37 - Total users in database: 5
+2025-04-07 06:08:37 - Search accessed
+2025-04-07 06:08:37 - Search query: jes
+2025-04-07 06:08:37 - Results found: 1
+2025-04-07 17:05:36 - Total users in database: 6
+2025-04-07 17:05:36 - Search accessed
+2025-04-07 17:05:36 - Search query: ad
+2025-04-07 17:05:36 - Results found: 0
+2025-04-07 17:05:39 - Total users in database: 6
+2025-04-07 17:05:39 - Search accessed
+2025-04-07 17:05:39 - Search query: test
+2025-04-07 17:05:39 - Results found: 1
+2025-04-07 17:05:41 - Total users in database: 6
+2025-04-07 17:05:41 - Search accessed
+2025-04-07 17:05:41 - Search query: test6
+2025-04-07 17:05:41 - Results found: 0
+2025-04-07 17:06:00 - Total users in database: 6
+2025-04-07 17:06:00 - Search accessed
+2025-04-07 17:06:00 - Search query: kapital
+2025-04-07 17:06:00 - Results found: 4
+2025-04-07 17:06:19 - Total users in database: 6
+2025-04-07 17:06:19 - Search accessed
+2025-04-07 17:06:19 - Search query: kapital
+2025-04-07 17:06:19 - Results found: 4
+2025-04-07 17:06:38 - Total users in database: 6
+2025-04-07 17:06:38 - Search accessed
+2025-04-07 17:06:38 - Search query: kapital
+2025-04-07 17:06:38 - Results found: 4
+2025-04-07 17:37:59 - Total users in database: 7
+2025-04-07 17:37:59 - Search accessed
+2025-04-07 17:37:59 - Search query: Jheri
+2025-04-07 17:37:59 - Results found: 2
+2025-04-07 17:37:59 - Total users in database: 7
+2025-04-07 17:37:59 - Search accessed
+2025-04-07 17:37:59 - Search query: Jherico
+2025-04-07 17:37:59 - Results found: 2
+2025-04-08 10:55:25 - Total users in database: 9
+2025-04-08 10:55:25 - Search accessed
+2025-04-08 10:55:25 - Search query: ad
+2025-04-08 10:55:25 - Results found: 0
+2025-04-08 10:55:26 - Total users in database: 9
+2025-04-08 10:55:26 - Search accessed
+2025-04-08 10:55:26 - Search query: admin
+2025-04-08 10:55:26 - Results found: 0
+2025-04-08 11:00:13 - Total users in database: 9
+2025-04-08 11:00:13 - Search accessed
+2025-04-08 11:00:13 - Search query: tara
+2025-04-08 11:00:13 - Results found: 0
+2025-04-08 11:00:14 - Total users in database: 9
+2025-04-08 11:00:14 - Search accessed
+2025-04-08 11:00:14 - Search query: taraki
+2025-04-08 11:00:14 - Results found: 0
+2025-04-08 11:00:16 - Total users in database: 9
+2025-04-08 11:00:16 - Search accessed
+2025-04-08 11:00:16 - Search query: ad
+2025-04-08 11:00:16 - Results found: 1
+2025-04-08 11:00:16 - Total users in database: 9
+2025-04-08 11:00:16 - Search accessed
+2025-04-08 11:00:16 - Search query: adm
+2025-04-08 11:00:16 - Results found: 1
+2025-04-08 11:00:17 - Total users in database: 9
+2025-04-08 11:00:17 - Search accessed
+2025-04-08 11:00:17 - Search query: admi
+2025-04-08 11:00:17 - Results found: 1
+2025-04-08 11:00:43 - Total users in database: 9
+2025-04-08 11:00:43 - Search accessed
+2025-04-08 11:00:43 - Search query: admin
+2025-04-08 11:00:43 - Results found: 1
+2025-04-08 11:01:34 - Total users in database: 9
+2025-04-08 11:01:34 - Search accessed
+2025-04-08 11:01:34 - Search query: ad
+2025-04-08 11:01:34 - Results found: 1
+2025-04-08 11:03:35 - Total users in database: 9
+2025-04-08 11:03:35 - Search accessed
+2025-04-08 11:03:35 - Search query: ad
+2025-04-08 11:03:35 - Results found: 1
+2025-04-08 12:20:18 - Total users in database: 9
+2025-04-08 12:20:18 - Search accessed
+2025-04-08 12:20:18 - Search query: ad
+2025-04-08 12:20:18 - Results found: 1
+2025-04-08 12:22:39 - Total users in database: 9
+2025-04-08 12:22:39 - Search accessed
+2025-04-08 12:22:39 - Search query: kapital
+2025-04-08 12:22:39 - Results found: 5
+2025-04-08 12:22:45 - Total users in database: 9
+2025-04-08 12:22:45 - Search accessed
+2025-04-08 12:22:45 - Search query: invest
+2025-04-08 12:22:45 - Results found: 2
+2025-04-08 12:22:48 - Total users in database: 9
+2025-04-08 12:22:48 - Search accessed
+2025-04-08 12:22:48 - Search query: ad
+2025-04-08 12:22:48 - Results found: 0
+2025-04-08 14:54:52 - Total users in database: 9
+2025-04-08 14:54:52 - Search accessed
+2025-04-08 14:54:52 - Search query: tr
+2025-04-08 14:54:52 - Results found: 1
+2025-04-09 15:16:39 - Total users in database: 4
+2025-04-09 15:16:39 - Search accessed
+2025-04-09 15:16:39 - Search query: tro
+2025-04-09 15:16:39 - Results found: 1
+2025-04-10 06:42:10 - Total users in database: 4
+2025-04-10 06:42:10 - Search accessed
+2025-04-10 06:42:10 - Search query: Taraki
+2025-04-10 06:42:10 - Results found: 0
+2025-04-10 06:42:13 - Total users in database: 4
+2025-04-10 06:42:13 - Search accessed
+2025-04-10 06:42:13 - Search query: jester
+2025-04-10 06:42:13 - Results found: 0
+2025-04-10 06:42:15 - Total users in database: 4
+2025-04-10 06:42:15 - Search accessed
+2025-04-10 06:42:15 - Search query: jest
+2025-04-10 06:42:15 - Results found: 0
+2025-04-10 06:42:15 - Total users in database: 4
+2025-04-10 06:42:15 - Search accessed
+2025-04-10 06:42:15 - Search query: jes
+2025-04-10 06:42:15 - Results found: 0
+2025-04-10 09:27:24 - Total users in database: 5
+2025-04-10 09:27:24 - Search accessed
+2025-04-10 09:27:24 - Search query: fra
+2025-04-10 09:27:24 - Results found: 1
+2025-04-10 10:42:01 - Total users in database: 8
+2025-04-10 10:42:01 - Search accessed
+2025-04-10 10:42:01 - Search query: fra
+2025-04-10 10:42:01 - Results found: 1
+2025-04-10 12:58:43 - Total users in database: 8
+2025-04-10 12:58:43 - Search accessed
+2025-04-10 12:58:43 - Search query: invest
+2025-04-10 12:58:43 - Results found: 1
+2025-04-10 13:09:43 - Total users in database: 9
+2025-04-10 13:09:43 - Search accessed
+2025-04-10 13:09:43 - Search query: tr
+2025-04-10 13:09:43 - Results found: 3
+2025-04-10 13:11:12 - Total users in database: 10
+2025-04-10 13:11:12 - Search accessed
+2025-04-10 13:11:12 - Search query: tr
+2025-04-10 13:11:12 - Results found: 3
+2025-04-10 13:11:13 - Total users in database: 10
+2025-04-10 13:11:13 - Search accessed
+2025-04-10 13:11:13 - Search query: troy
+2025-04-10 13:11:13 - Results found: 1
+2025-04-10 13:16:45 - Total users in database: 11
+2025-04-10 13:16:45 - Search accessed
+2025-04-10 13:16:45 - Search query: tr
+2025-04-10 13:16:45 - Results found: 3
+2025-04-10 13:18:56 - Total users in database: 11
+2025-04-10 13:18:56 - Search accessed
+2025-04-10 13:18:56 - Search query: yu
+2025-04-10 13:18:56 - Results found: 1
+2025-04-10 13:27:45 - Total users in database: 11
+2025-04-10 13:27:45 - Search accessed
+2025-04-10 13:27:45 - Search query: eu
+2025-04-10 13:27:45 - Results found: 2
+2025-04-10 13:27:46 - Total users in database: 11
+2025-04-10 13:27:46 - Search accessed
+2025-04-10 13:27:46 - Search query: eug
+2025-04-10 13:27:46 - Results found: 1
+2025-04-10 13:28:38 - Total users in database: 11
+2025-04-10 13:28:38 - Search accessed
+2025-04-10 13:28:38 - Search query: nun
+2025-04-10 13:28:38 - Results found: 0
+2025-04-10 13:28:39 - Total users in database: 11
+2025-04-10 13:28:39 - Search accessed
+2025-04-10 13:28:39 - Search query: nu
+2025-04-10 13:28:39 - Results found: 2
+2025-04-10 13:32:26 - Total users in database: 12
+2025-04-10 13:32:26 - Search accessed
+2025-04-10 13:32:26 - Search query: eu
+2025-04-10 13:32:26 - Results found: 2
+2025-04-10 13:35:33 - Total users in database: 12
+2025-04-10 13:35:33 - Search accessed
+2025-04-10 13:35:33 - Search query: admi
+2025-04-10 13:35:33 - Results found: 0
+2025-04-10 13:35:35 - Total users in database: 12
+2025-04-10 13:35:35 - Search accessed
+2025-04-10 13:35:35 - Search query: jes
+2025-04-10 13:35:35 - Results found: 0
+2025-04-10 13:36:11 - Total users in database: 12
+2025-04-10 13:36:11 - Search accessed
+2025-04-10 13:36:11 - Search query: jes
+2025-04-10 13:36:11 - Results found: 0
+2025-04-10 13:36:14 - Total users in database: 12
+2025-04-10 13:36:14 - Search accessed
+2025-04-10 13:36:14 - Search query: Jes
+2025-04-10 13:36:14 - Results found: 0
+2025-04-10 13:40:20 - Total users in database: 12
+2025-04-10 13:40:20 - Search accessed
+2025-04-10 13:40:20 - Search query: Frfan
+2025-04-10 13:40:20 - Results found: 0
+2025-04-10 13:40:21 - Total users in database: 12
+2025-04-10 13:40:21 - Search accessed
+2025-04-10 13:40:21 - Search query: Frf
+2025-04-10 13:40:21 - Results found: 0
+2025-04-10 13:40:22 - Total users in database: 12
+2025-04-10 13:40:22 - Search accessed
+2025-04-10 13:40:22 - Search query: Franc
+2025-04-10 13:40:22 - Results found: 1
+2025-04-10 13:42:05 - Total users in database: 12
+2025-04-10 13:42:05 - Search accessed
+2025-04-10 13:42:05 - Search query: hana
+2025-04-10 13:42:05 - Results found: 0
+2025-04-10 13:42:08 - Total users in database: 12
+2025-04-10 13:42:08 - Search accessed
+2025-04-10 13:42:08 - Search query: han
+2025-04-10 13:42:08 - Results found: 1
+2025-04-10 13:42:14 - Total users in database: 12
+2025-04-10 13:42:14 - Search accessed
+2025-04-10 13:42:14 - Search query: hann
+2025-04-10 13:42:14 - Results found: 1
+2025-04-23 10:52:14 - Total users in database: 14
+2025-04-23 10:52:14 - Search accessed
+2025-04-23 10:52:14 - Search query: intto
+2025-04-23 10:52:14 - Results found: 0
+2025-04-23 16:51:16 - Total users in database: 14
+2025-04-23 16:51:16 - Search accessed
+2025-04-23 16:51:16 - Search query: entrep
+2025-04-23 16:51:16 - Total users in database: 14
+2025-04-23 16:51:16 - Search accessed
+2025-04-23 16:51:16 - Search query: en
+2025-04-23 16:51:16 - Results found: 5
+2025-04-23 16:51:16 - Results found: 2
+2025-04-23 17:04:05 - Total users in database: 14
+2025-04-23 17:04:05 - Search accessed
+2025-04-23 17:04:05 - Search query: kapital
+2025-04-23 17:04:05 - Results found: 2
+2025-04-24 11:03:52 - Total users in database: 14
+2025-04-24 11:03:52 - Search accessed
+2025-04-24 11:03:52 - Search query: Han
+2025-04-24 11:03:52 - Results found: 1
+2025-04-28 01:18:09 - Total users in database: 18
+2025-04-28 01:18:09 - Search accessed
+2025-04-28 01:18:09 - Search query: sa
+2025-04-28 01:18:09 - Results found: 1
+2025-04-28 01:18:18 - Total users in database: 18
+2025-04-28 01:18:18 - Search accessed
+2025-04-28 01:18:18 - Search query: he
+2025-04-28 01:18:18 - Results found: 1
+2025-04-29 14:13:40 - Total users in database: 18
+2025-04-29 14:13:40 - Search accessed
+2025-04-29 14:13:40 - Search query: taraki
+2025-04-29 14:13:40 - Results found: 1
+2025-04-29 14:13:43 - Total users in database: 18
+2025-04-29 14:13:43 - Search accessed
+2025-04-29 14:13:43 - Search query: tarak
+2025-04-29 14:13:43 - Results found: 1
+2025-04-29 14:13:45 - Total users in database: 18
+2025-04-29 14:13:45 - Search accessed
+2025-04-29 14:13:45 - Search query: eu
+2025-04-29 14:13:45 - Results found: 3
+2025-04-29 14:13:46 - Total users in database: 18
+2025-04-29 14:13:46 - Search accessed
+2025-04-29 14:13:46 - Search query: eugene
+2025-04-29 14:13:46 - Results found: 2
+2025-04-29 14:14:55 - Total users in database: 19
+2025-04-29 14:14:55 - Search accessed
+2025-04-29 14:14:55 - Search query: eugu
+2025-04-29 14:14:55 - Results found: 0
+2025-04-29 14:14:55 - Total users in database: 19
+2025-04-29 14:14:55 - Search accessed
+2025-04-29 14:14:55 - Search query: eug
+2025-04-29 14:14:55 - Results found: 2
+2025-04-29 14:15:11 - Total users in database: 19
+2025-04-29 14:15:11 - Search accessed
+2025-04-29 14:15:11 - Search query: destiny
+2025-04-29 14:15:11 - Results found: 0
+2025-04-29 14:15:13 - Total users in database: 19
+2025-04-29 14:15:13 - Search accessed
+2025-04-29 14:15:13 - Search query: destin
+2025-04-29 14:15:13 - Results found: 0
+2025-04-29 14:15:15 - Total users in database: 19
+2025-04-29 14:15:15 - Search accessed
+2025-04-29 14:15:15 - Search query: waincel
+2025-04-29 14:15:15 - Results found: 0
+2025-04-29 14:15:16 - Total users in database: 19
+2025-04-29 14:15:16 - Search accessed
+2025-04-29 14:15:16 - Search query: waince
+2025-04-29 14:15:16 - Results found: 0
+2025-04-29 14:15:18 - Total users in database: 19
+2025-04-29 14:15:18 - Search accessed
+2025-04-29 14:15:18 - Search query: ysabel
+2025-04-29 14:15:18 - Results found: 0
+2025-04-29 14:15:20 - Total users in database: 19
+2025-04-29 14:15:20 - Search accessed
+2025-04-29 14:15:20 - Search query: ysabe
+2025-04-29 14:15:20 - Results found: 0
+2025-04-29 14:15:22 - Total users in database: 19
+2025-04-29 14:15:22 - Search accessed
+2025-04-29 14:15:22 - Search query: mero
+2025-04-29 14:15:22 - Results found: 0
+2025-04-29 14:15:23 - Total users in database: 19
+2025-04-29 14:15:23 - Search accessed
+2025-04-29 14:15:23 - Search query: mer
+2025-04-29 14:15:23 - Results found: 0
+2025-04-29 14:15:26 - Total users in database: 19
+2025-04-29 14:15:26 - Search accessed
+2025-04-29 14:15:26 - Search query: jester
+2025-04-29 14:15:26 - Results found: 0
+2025-04-29 14:15:29 - Total users in database: 19
+2025-04-29 14:15:29 - Search accessed
+2025-04-29 14:15:29 - Search query: ka
+2025-04-29 14:15:29 - Results found: 4
+2025-04-29 14:15:35 - Total users in database: 19
+2025-04-29 14:15:35 - Search accessed
+2025-04-29 14:15:35 - Search query: jhester
+2025-04-29 14:15:35 - Results found: 0
+2025-04-29 14:15:49 - Total users in database: 19
+2025-04-29 14:15:49 - Search accessed
+2025-04-29 14:15:49 - Search query: jh0ester
+2025-04-29 14:15:49 - Results found: 0
+2025-04-29 14:15:52 - Total users in database: 19
+2025-04-29 14:15:52 - Search accessed
+2025-04-29 14:15:52 - Search query: jh00ester
+2025-04-29 14:15:52 - Results found: 0
+2025-04-29 14:15:53 - Total users in database: 19
+2025-04-29 14:15:53 - Search accessed
+2025-04-29 14:15:53 - Search query: jh000000000000000ester
+2025-04-29 14:15:53 - Results found: 0
+2025-04-29 14:15:54 - Total users in database: 19
+2025-04-29 14:15:54 - Search accessed
+2025-04-29 14:15:54 - Search query: jh0000000000000001ester
+2025-04-29 14:15:54 - Results found: 0
+2025-04-29 14:15:54 - Total users in database: 19
+2025-04-29 14:15:54 - Search accessed
+2025-04-29 14:15:54 - Search query: jh000000000000000112ester
+2025-04-29 14:15:54 - Results found: 0
+2025-04-29 14:15:55 - Total users in database: 19
+2025-04-29 14:15:55 - Search accessed
+2025-04-29 14:15:55 - Search query: jh0000000000000001123.ester
+2025-04-29 14:15:55 - Results found: 0
+2025-04-29 14:15:57 - Total users in database: 19
+2025-04-29 14:15:57 - Search accessed
+2025-04-29 14:15:57 - Search query: jh0000000000000001123ester
+2025-04-29 14:15:57 - Results found: 0
+2025-04-29 14:15:57 - Total users in database: 19
+2025-04-29 14:15:57 - Search accessed
+2025-04-29 14:15:57 - Search query: jh0000000000000ester
+2025-04-29 14:15:57 - Results found: 0
+2025-04-29 14:20:27 - Total users in database: 19
+2025-04-29 14:20:27 - Search accessed
+2025-04-29 14:20:27 - Search query: Job
+2025-04-29 14:20:27 - Results found: 3
+2025-04-29 14:20:27 - Total users in database: 19
+2025-04-29 14:20:27 - Search accessed
+2025-04-29 14:20:27 - Search query: Jo
+2025-04-29 14:20:27 - Results found: 3
+2025-04-29 14:24:56 - Total users in database: 19
+2025-04-29 14:24:56 - Search accessed
+2025-04-29 14:24:56 - Search query: cookies
+2025-04-29 14:24:56 - Results found: 0
+2025-04-29 14:25:01 - Total users in database: 19
+2025-04-29 14:25:01 - Search accessed
+2025-04-29 14:25:01 - Search query: bumn
+2025-04-29 14:25:01 - Results found: 0
+2025-04-29 14:25:01 - Total users in database: 19
+2025-04-29 14:25:01 - Search accessed
+2025-04-29 14:25:01 - Search query: bum
+2025-04-29 14:25:01 - Results found: 0
+2025-04-29 14:25:04 - Total users in database: 19
+2025-04-29 14:25:04 - Search accessed
+2025-04-29 14:25:04 - Search query: taraki
+2025-04-29 14:25:04 - Results found: 1
+2025-04-29 14:27:39 - Total users in database: 19
+2025-04-29 14:27:39 - Search accessed
+2025-04-29 14:27:39 - Search query: Hi
+2025-04-29 14:27:39 - Results found: 0
+2025-04-29 14:27:45 - Total users in database: 19
+2025-04-29 14:27:45 - Search accessed
+2025-04-29 14:27:45 - Search query: Job
+2025-04-29 14:27:45 - Results found: 3
+2025-04-29 14:30:33 - Total users in database: 19
+2025-04-29 14:30:33 - Search accessed
+2025-04-29 14:30:33 - Search query: franc e
+2025-04-29 14:30:33 - Results found: 0
+2025-04-29 14:30:34 - Total users in database: 19
+2025-04-29 14:30:34 - Search accessed
+2025-04-29 14:30:34 - Search query: france
+2025-04-29 14:30:34 - Results found: 1
+2025-04-29 15:55:09 - Total users in database: 19
+2025-04-29 15:55:09 - Search accessed
+2025-04-29 15:55:09 - Search query: han
+2025-04-29 15:55:09 - Results found: 1
+2025-05-20 06:30:32 - Total users in database: 21
+2025-05-20 06:30:32 - Search accessed
+2025-05-20 06:30:32 - Search query: entrepreneur
+2025-05-20 06:30:32 - Results found: 2
+2025-05-20 06:30:44 - Total users in database: 21
+2025-05-20 06:30:44 - Search accessed
+2025-05-20 06:30:44 - Search query: entrepreneu
+2025-05-20 06:30:44 - Results found: 2
+2025-05-20 06:30:45 - Total users in database: 21
+2025-05-20 06:30:45 - Search accessed
+2025-05-20 06:30:45 - Search query: entrepreneur
+2025-05-20 06:30:45 - Results found: 2
+2025-05-20 23:49:16 - Total users in database: 21
+2025-05-20 23:49:16 - Search accessed
+2025-05-20 23:49:16 - Search query: entre
+2025-05-20 23:49:16 - Results found: 4
+2025-05-21 00:48:53 - Total users in database: 22
+2025-05-21 00:48:53 - Search accessed
+2025-05-21 00:48:53 - Search query: entrep
+2025-05-21 00:48:53 - Results found: 4
+2025-05-21 00:49:12 - Total users in database: 22
+2025-05-21 00:49:12 - Search accessed
+2025-05-21 00:49:12 - Search query: entrep
+2025-05-21 00:49:12 - Results found: 4
+2025-05-21 00:53:16 - Total users in database: 22
+2025-05-21 00:53:16 - Search accessed
+2025-05-21 00:53:16 - Search query: entrep
+2025-05-21 00:53:16 - Results found: 4
+2025-05-22 01:19:13 - Total users in database: 26
+2025-05-22 01:19:13 - Search accessed
+2025-05-22 01:19:13 - Search query: job
+2025-05-22 01:19:13 - Results found: 3
+2025-05-24 15:06:06 - Total users in database: 26
+2025-05-24 15:06:06 - Search accessed
+2025-05-24 15:06:06 - Search query: Entrepreneur
+2025-05-24 15:06:06 - Results found: 2
+2025-05-25 15:36:17 - Total users in database: 27
+2025-05-25 15:36:17 - Search accessed
+2025-05-25 15:36:17 - Search query: entrep
+2025-05-25 15:36:17 - Results found: 4
+2025-05-26 01:18:10 - Total users in database: 27
+2025-05-26 01:18:10 - Search accessed
+2025-05-26 01:18:10 - Search query: entrep
+2025-05-26 01:18:10 - Results found: 4
+2025-05-27 01:39:21 - Total users in database: 27
+2025-05-27 01:39:21 - Search accessed
+2025-05-27 01:39:21 - Search query: demo
+2025-05-27 01:39:21 - Results found: 6
+2025-05-27 01:39:23 - Total users in database: 27
+2025-05-27 01:39:23 - Search accessed
+2025-05-27 01:39:23 - Search query: demo testing
+2025-05-27 01:39:23 - Results found: 0
+2025-05-27 01:39:25 - Total users in database: 27
+2025-05-27 01:39:25 - Search accessed
+2025-05-27 01:39:25 - Search query: demo
+2025-05-27 01:39:25 - Results found: 6
+2025-05-27 01:39:34 - Total users in database: 27
+2025-05-27 01:39:34 - Search accessed
+2025-05-27 01:39:34 - Search query: demo testing
+2025-05-27 01:39:34 - Results found: 0
+2025-05-27 07:57:25 - Total users in database: 27
+2025-05-27 07:57:25 - Search accessed
+2025-05-27 07:57:25 - Search query: fra
+2025-05-27 07:57:25 - Results found: 1
+2025-05-27 07:57:26 - Total users in database: 27
+2025-05-27 07:57:26 - Search accessed
+2025-05-27 07:57:26 - Search query: francesca
+2025-05-27 07:57:26 - Results found: 1
+2025-05-27 07:57:27 - Total users in database: 27
+2025-05-27 07:57:27 - Search accessed
+2025-05-27 07:57:27 - Search query: francesc
+2025-05-27 07:57:27 - Results found: 1
+2025-05-29 02:59:53 - Total users in database: 27
+2025-05-29 02:59:53 - Search accessed
+2025-05-29 02:59:53 - Search query: en
+2025-05-29 02:59:53 - Results found: 7
+2025-05-29 02:59:54 - Total users in database: 27
+2025-05-29 02:59:54 - Search accessed
+2025-05-29 02:59:54 - Search query: entr
+2025-05-29 02:59:54 - Results found: 3
+2025-05-29 03:04:50 - Total users in database: 27
+2025-05-29 03:04:50 - Search accessed
+2025-05-29 03:04:50 - Search query: en
+2025-05-29 03:04:50 - Results found: 7
+2025-05-29 03:04:51 - Total users in database: 27
+2025-05-29 03:04:51 - Search accessed
+2025-05-29 03:04:51 - Search query: ent
+2025-05-29 03:04:51 - Results found: 4

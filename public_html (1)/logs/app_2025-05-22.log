@@ -1,0 +1,13 @@
+[2025-05-22 00:54:43][INFO] TokenTracker initialized with daily limit: 1000
+[2025-05-22 00:54:46][INFO] Recording token usage for user_id: 20, count: 304.25 on date: 2025-05-22
+[2025-05-22 00:54:46][INFO] Reconnecting to database (attempt 1)
+[2025-05-22 00:54:46][INFO] Successfully recorded token usage
+[2025-05-22 00:54:54][INFO] Recording token usage for user_id: 20, count: 539.5 on date: 2025-05-22
+[2025-05-22 00:54:54][INFO] Reconnecting to database (attempt 1)
+[2025-05-22 00:54:54][INFO] Successfully recorded token usage
+[2025-05-22 00:54:58][INFO] Recording token usage for user_id: 20, count: 168.5 on date: 2025-05-22
+[2025-05-22 00:54:58][INFO] Reconnecting to database (attempt 1)
+[2025-05-22 00:54:58][INFO] Successfully recorded token usage
+[2025-05-22 00:55:09][INFO] Recording token usage for user_id: 20, count: 708.5 on date: 2025-05-22
+[2025-05-22 00:55:09][INFO] Reconnecting to database (attempt 1)
+[2025-05-22 00:55:09][INFO] Successfully recorded token usage

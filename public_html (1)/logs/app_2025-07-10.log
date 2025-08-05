@@ -1,0 +1,67 @@
+[2025-07-10 03:59:21][INFO] TokenTracker initialized with daily limit: 1000
+[2025-07-10 03:59:21][INFO] AIService initialized with model: gpt-4-turbo-preview
+[2025-07-10 03:59:21][INFO] API Key length: 164
+[2025-07-10 03:59:21][INFO] Starting getAIResponse for user_id: 34
+[2025-07-10 03:59:21][INFO] Question: give me a timeline budget for year 1-3...
+[2025-07-10 03:59:21][INFO] Cache miss for question hash: 92de499028480fb98d2e412ab4f874dc
+[2025-07-10 03:59:21][INFO] Reconnecting to database
+[2025-07-10 03:59:21][INFO] Storing question in database
+[2025-07-10 03:59:21][INFO] Stored question with conversation_id: 160
+[2025-07-10 03:59:21][INFO] Calling OpenAI API
+[2025-07-10 03:59:21][INFO] Starting callOpenAI
+[2025-07-10 03:59:21][INFO] Preparing OpenAI API request with model: gpt-4-turbo-preview
+[2025-07-10 03:59:21][INFO] Sending request to OpenAI API
+[2025-07-10 03:59:55][INFO] Connection time: 0.009173 seconds
+[2025-07-10 03:59:55][INFO] Total request time: 33.106617 seconds
+[2025-07-10 03:59:55][INFO] Download speed: 64 bytes/second
+[2025-07-10 03:59:55][INFO] Received response from OpenAI API with HTTP code: 200
+[2025-07-10 03:59:55][INFO] Response: {
+  "id": "chatcmpl-BrcjKoGhf5KIiIEPY2NHbZ7TNdaGh",
+  "object": "chat.completion",
+  "created": 1752119962,
+  "model": "gpt-4-0125-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+ ...
+[2025-07-10 03:59:55][INFO] Successfully extracted content from response
+[2025-07-10 03:59:55][INFO] Successfully received response from OpenAI
+[2025-07-10 03:59:55][WARNING] Error caching response: MySQL server has gone away
+[2025-07-10 03:59:55][INFO] Estimated token count: 960.75
+[2025-07-10 03:59:55][INFO] Recording token usage
+[2025-07-10 03:59:55][INFO] Recording token usage for user_id: 34, count: 960.75 on date: 2025-07-10
+[2025-07-10 03:59:55][INFO] Reconnecting to database (attempt 1)
+[2025-07-10 04:00:01][ERROR] Error in recordTokenUsage (attempt 1): MySQL server has gone away
+[2025-07-10 04:00:01][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(146): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(71): AIService->getAIResponse()
+#4 {main}
+[2025-07-10 04:00:01][INFO] Waiting 2 seconds before retry
+[2025-07-10 04:00:03][INFO] Reconnecting to database (attempt 2)
+[2025-07-10 04:00:09][ERROR] Error in recordTokenUsage (attempt 2): MySQL server has gone away
+[2025-07-10 04:00:09][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(146): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(71): AIService->getAIResponse()
+#4 {main}
+[2025-07-10 04:00:09][INFO] Waiting 4 seconds before retry
+[2025-07-10 04:00:13][INFO] Reconnecting to database (attempt 3)
+[2025-07-10 04:00:19][ERROR] Error in recordTokenUsage (attempt 3): MySQL server has gone away
+[2025-07-10 04:00:19][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(146): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(71): AIService->getAIResponse()
+#4 {main}
+[2025-07-10 04:00:19][ERROR] Failed to record token usage after 3 attempts
+[2025-07-10 04:00:19][WARNING] Failed to record token usage, attempt 1 of 3
+[2025-07-10 04:00:21][INFO] Recording token usage for user_id: 34, count: 960.75 on date: 2025-07-10
+[2025-07-10 04:00:21][INFO] Reconnecting to database (attempt 1)
+[2025-07-10 04:00:27][ERROR] Error in recordTokenUsage (attempt 1): MySQL server has gone away
+[2025-07-10 04:00:27][ERROR] Stack trace: #0 /home/u882993081/domains/kapital-taraki.org/public_html/db_connection.php(43): mysqli->query()
+#1 /home/u882993081/domains/kapital-taraki.org/public_html/token_tracker.php(30): reconnect_db()
+#2 /home/u882993081/domains/kapital-taraki.org/public_html/ai_service.php(146): TokenTracker->recordTokenUsage()
+#3 /home/u882993081/domains/kapital-taraki.org/public_html/startup_ai_advisor.php(71): AIService->getAIResponse()
+#4 {main}
+[2025-07-10 04:00:27][INFO] Waiting 2 seconds before retry
