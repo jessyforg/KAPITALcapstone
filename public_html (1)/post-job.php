@@ -316,7 +316,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             flex: 1;
         }
 
-        form button {
+        .container form button {
             background-color: #ea580c;
             color: white;
             padding: 14px 28px;
@@ -334,12 +334,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             margin-top: 30px;
         }
 
-        form button:hover {
+        .container form button:hover {
             background-color: #ff6b1a;
             transform: translateY(-2px);
         }
 
-        form button i {
+        .container form button i {
             font-size: 1.1rem;
         }
 
@@ -368,7 +368,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 gap: 10px;
             }
 
-            form button {
+            .container form button {
                 padding: 12px 20px;
             }
         }

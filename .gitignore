@@ -1,0 +1,45 @@
+# Configuration files with sensitive data
+public_html (1)/config.php
+public_html (1)/localhost_config.php
+public_html (1)/db_connection_localhost.php
+
+# Log files
+public_html (1)/logs/
+public_html (1)/search_log.txt
+
+# Upload directories (user-generated content)
+public_html (1)/uploads/
+public_html (1)/uploadsresumes/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Composer dependencies (if not needed in repo)
+# vendor/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Backup files
+*.bak
+*.backup 

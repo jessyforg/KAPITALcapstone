@@ -75,6 +75,13 @@ if (isset($_POST['question'])) {
         $ai_service = new AIService($conn);
         $response = $ai_service->getAIResponse($user_id, $question);
         
+        // Store success message if we got a response
+        if ($response && !empty($response)) {
+            $_SESSION['ai_success'] = "Question processed successfully!";
+        } else {
+            $_SESSION['ai_error'] = "I apologize, but I couldn't generate a response. Please try again.";
+        }
+        
         // Redirect to prevent form resubmission
         header("Location: startup_ai_advisor.php");
         exit();
@@ -94,7 +101,7 @@ $conversations = [];
 try {
     $stmt = $conn->prepare("
         SELECT question, response, created_at, responded_at 
-        FROM AI_Conversations 
+        FROM ai_conversations 
         WHERE user_id = ? 
         ORDER BY created_at DESC
         LIMIT 10
@@ -116,6 +123,10 @@ try {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <style>
+        body {
+            padding-top: 120px; /* Account for fixed navbar */
+        }
+        
         .ai-chat-container {
             max-width: 800px;
             margin: 40px auto;
@@ -283,8 +294,17 @@ try {
         }
 
         @media (max-width: 768px) {
+            body {
+                padding-top: 100px; /* Reduced padding for mobile */
+            }
             .ai-chat-container {
                 margin: 20px;
+            }
+        }
+        
+        @media (max-width: 475px) {
+            body {
+                padding-top: 90px; /* Further reduced padding for small screens */
             }
         }
 
@@ -292,6 +312,16 @@ try {
             background: rgba(220, 53, 69, 0.1);
             border: 1px solid rgba(220, 53, 69, 0.3);
             color: #dc3545;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .success-message {
+            background: rgba(40, 167, 69, 0.1);
+            border: 1px solid rgba(40, 167, 69, 0.3);
+            color: #28a745;
             padding: 15px;
             border-radius: 8px;
             margin: 20px 0;
@@ -466,6 +496,15 @@ try {
                 <?php 
                 echo htmlspecialchars($_SESSION['ai_error']);
                 unset($_SESSION['ai_error']);
+                ?>
+            </div>
+        <?php endif; ?>
+
+        <?php if (isset($_SESSION['ai_success'])): ?>
+            <div class="success-message">
+                <?php 
+                echo htmlspecialchars($_SESSION['ai_success']);
+                unset($_SESSION['ai_success']);
                 ?>
             </div>
         <?php endif; ?>

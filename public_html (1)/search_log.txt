@@ -730,3 +730,7 @@
 2025-05-29 03:04:51 - Search accessed
 2025-05-29 03:04:51 - Search query: ent
 2025-05-29 03:04:51 - Results found: 4
+2025-08-07 01:12:18 - Total users in database: 4
+2025-08-07 01:12:18 - Search accessed
+2025-08-07 01:12:18 - Search query: asdasdasd
+2025-08-07 01:12:18 - Results found: 0

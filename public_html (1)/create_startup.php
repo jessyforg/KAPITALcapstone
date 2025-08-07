@@ -462,7 +462,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             min-height: 150px;
         }
 
-        button {
+        .container button {
             background-color: #ea580c;
             color: white;
             padding: 14px 28px;
@@ -480,7 +480,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             gap: 8px;
         }
 
-        button:hover {
+        .container button:hover {
             background-color: #ff6b1a;
             transform: translateY(-2px);
         }
@@ -691,7 +691,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 font-size: 0.95rem;
             }
 
-            button {
+            .container button {
                 padding: 12px 24px;
             }
         }

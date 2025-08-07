@@ -410,8 +410,8 @@ if ($search_query) {
             box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25);
         }
         .floating-navbar {
-            margin-left: 16px !important;
-            margin-top: 16px !important;
+            margin: 16px auto !important;
+            max-width: 1200px !important;
             transition: margin-left 0.3s, margin-top 0.3s;
             border-radius: 24px;
             box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25);
@@ -441,8 +441,8 @@ if ($search_query) {
                 margin-right: 8px;
             }
             .floating-navbar {
-                margin-left: 8px !important;
-                margin-right: 8px !important;
+                margin: 8px auto !important;
+                max-width: calc(100% - 16px) !important;
             }
         }
         
@@ -456,8 +456,8 @@ if ($search_query) {
                 margin-right: 4px;
             }
             .floating-navbar {
-                margin-left: 4px !important;
-                margin-right: 4px !important;
+                margin: 4px auto !important;
+                max-width: calc(100% - 8px) !important;
             }
         }
         .messages-page .messages-container {

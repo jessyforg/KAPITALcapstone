@@ -42,7 +42,7 @@ class AIService {
         try {
             $stmt = $this->conn->prepare("
                 SELECT response 
-                FROM AI_Response_Cache 
+                FROM ai_response_cache 
                 WHERE question_hash = ? 
                 AND created_at > DATE_SUB(NOW(), INTERVAL ? SECOND)
                 ORDER BY created_at DESC 
@@ -70,7 +70,7 @@ class AIService {
     private function cacheResponse($question, $response) {
         try {
             $stmt = $this->conn->prepare("
-                INSERT INTO AI_Response_Cache (question_hash, question, response, created_at)
+                INSERT INTO ai_response_cache (question_hash, question, response, created_at)
                 VALUES (?, ?, ?, NOW())
             ");
             
@@ -112,7 +112,7 @@ class AIService {
             // Store the question in the database
             custom_log("Storing question in database");
             $stmt = $this->conn->prepare("
-                INSERT INTO AI_Conversations (user_id, question, response, created_at) 
+                INSERT INTO ai_conversations (user_id, question, response, created_at) 
                 VALUES (?, ?, '', NOW())
             ");
             
@@ -151,6 +151,11 @@ class AIService {
                     if ($retry_count < $max_retries) {
                         sleep(pow(2, $retry_count)); // Exponential backoff
                     }
+                }
+                
+                // Increment retry count if no response was received but no exception was thrown
+                if (!$response) {
+                    $retry_count++;
                 }
             }
             
@@ -191,7 +196,7 @@ class AIService {
             // Update the response in the database
             custom_log("Updating response in database");
             $stmt = $this->conn->prepare("
-                UPDATE AI_Conversations 
+                UPDATE ai_conversations 
                 SET response = ?, responded_at = NOW()
                 WHERE conversation_id = ?
             ");

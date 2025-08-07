@@ -183,7 +183,9 @@ if (isset($_SESSION['user_id'])) {
             flex: 1;
             display: flex;
             justify-content: center;
+            align-items: center;
             margin: 0 24px;
+            gap: 24px;
         }
         .navbar-menu {
             display: flex;
@@ -241,7 +243,9 @@ if (isset($_SESSION['user_id'])) {
         }
         .search-container {
             position: relative;
-            width: 300px;
+            width: 320px;
+            min-width: 280px;
+            flex-shrink: 0;
         }
         .search-form {
             display: flex;
@@ -251,6 +255,8 @@ if (isset($_SESSION['user_id'])) {
             border-radius: 12px;
             padding: 4px 12px;
             transition: all 0.2s ease;
+            position: relative;
+            width: 100%;
         }
         .search-form:focus-within {
             background: rgba(35, 39, 42, 0.8);
@@ -265,6 +271,7 @@ if (isset($_SESSION['user_id'])) {
             padding: 8px;
             outline: none;
             width: 100%;
+            flex: 1;
         }
         .search-form input[type="text"]::placeholder {
             color: rgba(255, 255, 255, 0.5);
@@ -278,6 +285,7 @@ if (isset($_SESSION['user_id'])) {
             padding: 4px;
             border-radius: 50%;
             transition: all 0.2s ease;
+            flex-shrink: 0;
         }
         .search-form button:hover {
             color: #fff;
@@ -354,7 +362,11 @@ if (isset($_SESSION['user_id'])) {
                 padding: 0 16px;
             }
             .search-container {
-                width: 200px;
+                width: 240px;
+                min-width: 200px;
+            }
+            .navbar-center {
+                gap: 16px;
             }
             .navbar-menu {
                 gap: 18px;
@@ -614,21 +626,34 @@ if (isset($_SESSION['user_id'])) {
             display: flex;
             align-items: center;
             height: 44px;
-            padding: 0 12px;
+            padding: 4px 12px;
             box-sizing: border-box;
+            background: rgba(35, 39, 42, 0.5);
+            border: 1px solid rgba(234, 88, 12, 0.2);
+            border-radius: 12px;
+            transition: all 0.2s ease;
+            width: 100%;
+        }
+        .floating-navbar .search-form:focus-within {
+            background: rgba(35, 39, 42, 0.8);
+            border-color: #ea580c;
+            box-shadow: 0 0 0 2px rgba(234, 88, 12, 0.1);
         }
         .floating-navbar .search-form input[type='text'] {
             height: 32px;
             line-height: 32px;
             padding: 0 8px;
-            font-size: 1em;
+            font-size: 0.95em;
             background: transparent;
             border: none;
             color: #fff;
             outline: none;
-            width: 100%;
+            flex: 1;
             box-sizing: border-box;
             margin: 0;
+        }
+        .floating-navbar .search-form input[type='text']::placeholder {
+            color: rgba(255, 255, 255, 0.5);
         }
         .floating-navbar .search-form button {
             height: 32px;
@@ -636,7 +661,7 @@ if (isset($_SESSION['user_id'])) {
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.2em;
+            font-size: 1.1em;
             line-height: 1;
             background: none;
             border: none;
@@ -647,13 +672,18 @@ if (isset($_SESSION['user_id'])) {
             margin-left: 4px;
             padding: 0;
             box-sizing: border-box;
+            flex-shrink: 0;
+        }
+        .floating-navbar .search-form button:hover {
+            color: #fff;
+            background: rgba(234, 88, 12, 0.2);
         }
         .floating-navbar .search-form button i {
             display: flex;
             align-items: center;
             justify-content: center;
             line-height: 1;
-            font-size: 1.2em;
+            font-size: 1.1em;
             width: 100%;
             height: 100%;
         }
@@ -702,21 +732,20 @@ if (isset($_SESSION['user_id'])) {
                         <img src="imgs/logo.png" alt="Taraki Logo" class="h-6 sm:h-8 w-auto object-contain">
                     </a>
                 </div>
+            </div>
+            <div class="navbar-center">
                 <?php if (empty($hide_navbar_search)): ?>
-                <div class="search-container hidden md:block flex-1 max-w-sm">
+                <div class="search-container hidden md:block">
                     <form class="search-form" action="search.php" method="get" onsubmit="return false;">
                         <input type="text" id="searchInput" name="query" 
-                               placeholder="Search..." autocomplete="off" 
-                               class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded-full text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-transparent" />
-                        <button type="submit" class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white">
+                               placeholder="Search..." autocomplete="off" />
+                        <button type="submit">
                             <i class="fas fa-search"></i>
                         </button>
                     </form>
                     <div id="searchResults" class="search-results" style="display: none;"></div>
                 </div>
                 <?php endif; ?>
-            </div>
-            <div class="navbar-center">
                 <?php
                 $show_nav_links = false;
                 $current_page = basename($_SERVER['PHP_SELF']);
