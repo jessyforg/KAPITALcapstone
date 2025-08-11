@@ -4,6 +4,7 @@ include('db_connection.php');
 include('verification_check.php');
 require_once 'config.php';
 include('navbar.php');
+include('user_details_modal.php');
 
 // Redirect if the user is not logged in or does not have the job_seeker role
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'job_seeker') {

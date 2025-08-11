@@ -1,5 +1,6 @@
 <?php
 session_start(); // Start session to check login status
+include('user_details_modal.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

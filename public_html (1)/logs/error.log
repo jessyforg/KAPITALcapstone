@@ -208,3 +208,47 @@ Stack trace:
 [07-Aug-2025 01:31:21 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
 [07-Aug-2025 01:42:16 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
 [07-Aug-2025 01:42:16 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 09:32:13 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 09:32:13 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:03:07 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:03:07 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:03:10 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:03:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:26:28 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:26:28 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:39:54 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:39:54 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:50:13 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:50:13 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:52:27 Europe/Berlin] Match attempt: investor_id=3, startup_id=1
+[07-Aug-2025 18:52:27 Europe/Berlin] Match inserted successfully
+[07-Aug-2025 18:52:27 Europe/Berlin] Match ID: 2
+[07-Aug-2025 18:52:27 Europe/Berlin] Entrepreneur found: user_id=1, email=jes.ayson.perez@gmail.com
+[07-Aug-2025 18:52:27 Europe/Berlin] Entrepreneur notification inserted successfully
+[07-Aug-2025 18:52:27 Europe/Berlin] Startup found: name=Kapital
+[07-Aug-2025 18:52:27 Europe/Berlin] Investor notification inserted successfully
+[07-Aug-2025 18:54:34 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:54:34 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:57:02 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:57:02 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:57:12 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:57:12 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:58:08 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:58:08 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 18:59:12 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\process_job.php on line 55
+[07-Aug-2025 19:03:05 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:03:05 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:08:30 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:08:30 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:17:59 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:17:59 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:18:01 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:18:01 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:18:43 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:18:43 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:21:15 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:21:15 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:22:22 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[07-Aug-2025 19:22:22 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[08-Aug-2025 12:04:50 Europe/Berlin] PHP Warning:  include(footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172
+[08-Aug-2025 12:04:50 Europe/Berlin] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KAPITALcapstone\public_html (1)\index.php on line 1172

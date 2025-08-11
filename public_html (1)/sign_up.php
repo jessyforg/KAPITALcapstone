@@ -470,19 +470,19 @@
             </div>
             <div class="gallery-section">
                 <div class="gallery-item active">
-                    <img src="imgs/gallery/IMG_5230.jpg" alt="Entrepreneur" loading="lazy" data-src="imgs/gallery/IMG_5230.jpg">
+                    <img src="imgs/gallery/1.webp" alt="Entrepreneur" loading="lazy" data-src="imgs/gallery/1.webp">
                     <div class="gallery-caption">Start Your Journey</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="imgs/gallery/IMG_8911.jpg" alt="Investor" loading="lazy" data-src="imgs/gallery/IMG_8911.jpg">
+                    <img src="imgs/gallery/2.webp" alt="Investor" loading="lazy" data-src="imgs/gallery/2.webp">
                     <div class="gallery-caption">Grow Your Portfolio</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="imgs/gallery/DSCF9609.jpg" alt="Job Seeker" loading="lazy" data-src="imgs/gallery/DSCF9609.jpg">
+                    <img src="imgs/gallery/3.webp" alt="Job Seeker" loading="lazy" data-src="imgs/gallery/3.webp">
                     <div class="gallery-caption">Find Your Path</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="imgs/gallery/IMG_3145.jpg" alt="Community" loading="lazy" data-src="imgs/gallery/IMG_3145.jpg">
+                    <img src="imgs/gallery/4.webp" alt="Community" loading="lazy" data-src="imgs/gallery/4.webp">
                     <div class="gallery-caption">Join Our Community</div>
                 </div>
                 <div class="slideshow-controls">

@@ -5,6 +5,7 @@ include('verification_check.php');
 require_once 'config.php';
 require_once 'entrepreneur_job_seeker_matchmaking.php';
 include('navbar.php');
+include('user_details_modal.php');
 
 // Define industries array
 $industries = [
